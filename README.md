@@ -13,6 +13,10 @@ Download submodules
 
     git submodule init
     git submodule update
+    
+Set a default user (for your zsh prompt)
+    
+    export DEFAULTUSER=your_username
 
 Run the installer.
 

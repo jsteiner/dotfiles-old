@@ -48,7 +48,7 @@ _color() {
 }
 
 _user_name() {
-  if [ $USER != "jsteiner" ]; then
+  if [ $USER != "$DEFAULTUSER" ]; then
     echo "$USER "
   fi
 }
