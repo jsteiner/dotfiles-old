@@ -7,7 +7,13 @@ vmap D y'>p
 
 " Disable shift+k
 map K <Nop>
-command! Q q " Bind :Q to :q
+
+" Bind :Q to :q
+command! Q q
+
+" Bind :W to :w
+command! W w
+
 
 " Movement
 """"""""""
