@@ -20,13 +20,8 @@ install tmux
 install reattach-to-user-namespace
 
 # Ruby version manager
-install rbenv
-
-# So `ruby install` works
-install ruby-build
-
-# Never run `rbenv rehash` again
-install rbenv-gem-rehash
+install chruby
+install ruby-install
 
 # install rcm for managing .dotfiles
 tap thoughtbot/formulae

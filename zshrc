@@ -22,6 +22,15 @@ setopt cdablevars
 # Enable extended globbing
 setopt extended_glob
 
+# PATH
+typeset -U path # ensure unique paths within PATH
+export PATH=$HOME/.bin:/usr/local/bin:/usr/local/share/npm/bin:$PATH
+
+if [[ -e /usr/local/share/chruby ]]; then
+  source /usr/local/share/chruby/chruby.sh
+  source /usr/local/share/chruby/auto.sh
+fi
+
 # Configuration
 for config_file (~/.zsh/*.zsh) source $config_file
 
