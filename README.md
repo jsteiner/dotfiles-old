@@ -42,7 +42,7 @@ cause problems with Vim. More info [here].
 Set up vundle:
 
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    vim +BundleInstall +qa
+    vim +PluginInstall +qa
 
 Remap `Caps Lock` to `Control`. Thank me later.
 
