@@ -3,7 +3,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 Plugin 'bogado/file-line'
 Plugin 'epmatsw/ag.vim'
 Plugin 'kien/ctrlp.vim'
