@@ -52,6 +52,3 @@
 [include]
   # Add your user credentials in this file
   path = ~/.gitconfig.local
-[init]
-  # Initialize new repos with these settings
-  templatedir = ~/.git_template
