@@ -8,6 +8,7 @@ alias la='ls -la'
 alias ln='ln -v'
 alias mkdir='mkdir -p'
 alias ...='../..'
+alias sed='sed -E'
 
 # PS
 alias psa="ps aux"
