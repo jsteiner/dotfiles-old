@@ -6,6 +6,10 @@ let g:rails_projections = {
       \   "command": "feature",
       \   "template": "require 'spec_helper'\n\nfeature '%h' do\n\nend",
       \ },
+      \ "app/services/*.rb": {
+      \   "command": "service",
+      \   "template": "class %S\n\nend",
+      \ },
       \ "spec/support/*.rb": {
       \   "command": "support"
       \ }}
