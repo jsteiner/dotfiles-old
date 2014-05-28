@@ -1,0 +1,708 @@
+2014-05-27 15:33:33	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 15:33:33	--	Topic for #weechat is "We Chattin"
+2014-05-27 15:33:33	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-27 15:33:33	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-27 15:33:33	--	Mode #weechat [+v blake : active] by blake
+2014-05-27 15:33:33	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-27 15:33:33	--	Mode #weechat [+v derek : active] by derek
+2014-05-27 15:33:33	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-27 15:33:33	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 15:33:33	--	Mode #weechat [+v goose : active] by goose
+2014-05-27 15:33:33	--	Mode #weechat [+v desi : active] by desi
+2014-05-27 15:33:33	--	Mode #weechat [+v anna : active] by anna
+2014-05-27 15:33:33	--	Mode #weechat [+v tony : active] by tony
+2014-05-27 15:33:33	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 15:33:33	+justin	justin has joined the channel
+2014-05-27 15:33:35	--	Mode #weechat [+nt]
+2014-05-27 15:33:35	--	Channel created on Tue, 27 May 2014 15:33:35
+2014-05-27 15:34:36	--	Mode #weechat [-v tony : away] by tony
+2014-05-27 15:37:35	--	Mode #weechat [-v jferris : away] by jferris
+2014-05-27 15:40:42	--	Mode #weechat [+v tony : active] by tony
+2014-05-27 15:40:42	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 15:43:31	--	Mode #weechat [+v pbrisbin : active] by pbrisbin
+2014-05-27 15:43:31	+pbrisbin	ping justin 
+2014-05-27 15:44:17	+pbrisbin	ping justin again
+2014-05-27 15:44:39	+pbrisbin	(testing notifications, of course)
+2014-05-27 15:49:34	--	gabebw has unset topic for #weechat (old topic: "We Chattin")
+2014-05-27 15:49:40	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-27 15:49:40	--	gabebw has changed topic for #weechat to "We Chattin"
+2014-05-27 15:49:55	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-27 15:49:55	+jferris	okay
+2014-05-27 15:49:59	--	blake has unset topic for #weechat (old topic: "We Chattin")
+2014-05-27 15:50:02	+blake	woah
+2014-05-27 15:50:07	--	blake has changed topic for #weechat to ""We Chattin""
+2014-05-27 15:50:12	+blake	Yeah, that's unexpected.
+2014-05-27 15:50:32	+gabebw	Just doing /topic unsets it, as I assume you just discovered
+2014-05-27 15:50:42	+blake	Yeah, that's not the proper behaviour.
+2014-05-27 15:50:52	+pbrisbin	yeah, definitely not proper behavior
+2014-05-27 15:51:26	+gabebw	What is it supposed to do? Nothing?
+2014-05-27 15:51:41	+blake	It's supposed to print out the topic for you.
+2014-05-27 15:51:49	+blake	It shouldn't delete it unless you call `/topic -delete`
+2014-05-27 15:52:07	+gabebw	well the topic is in the top left, so i guess weechat decided to shake it up
+2014-05-27 15:52:15	+gabebw	classic Weechat
+2014-05-27 16:02:04	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-27 16:02:12	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-27 16:09:06	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-27 16:11:35	--	Mode #weechat [-v desi : away] by desi
+2014-05-27 16:11:35	--	Mode #weechat [-v anna : away] by anna
+2014-05-27 16:17:35	--	Mode #weechat [-v tony : away] by tony
+2014-05-27 16:17:35	--	Mode #weechat [-v derek : away] by derek
+2014-05-27 16:18:35	--	Mode #weechat [-v keithsmiley : away] by keithsmiley
+2014-05-27 16:18:54	--	Mode #weechat [-v jsteiner : away] by jsteiner
+2014-05-27 16:19:29	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-27 16:21:35	--	Mode #weechat [-v pbrisbin : away] by pbrisbin
+2014-05-27 16:23:35	--	Mode #weechat [-v gfontenot : away] by gfontenot
+2014-05-27 16:24:00	--	Mode #weechat [+v derek : active] by derek
+2014-05-27 16:31:04	--	Mode #weechat [+v tony : active] by tony
+2014-05-27 16:32:20	--	Mode #weechat [+v anna : active] by anna
+2014-05-27 16:38:42	--	Mode #weechat [+v desi : active] by desi
+2014-05-27 16:40:43	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 16:46:11	-->	djcp (djcp@irc.tinyspeck.com) has joined #weechat
+2014-05-27 16:49:14	--	Mode #weechat [+v djcp : active] by djcp
+2014-05-27 16:49:14	+djcp	TIL about ~/.weechat/plugins.conf
+2014-05-27 16:50:23	--	Mode #weechat [-v djcp : away] by djcp
+2014-05-27 16:50:26	--	Mode #weechat [+v djcp : active] by djcp
+2014-05-27 16:51:12	--	Mode #weechat [-v anna : away] by anna
+2014-05-27 16:51:36	+gabebw	How does that help?
+2014-05-27 16:51:49	+gabebw	Mine just has:
+2014-05-27 16:51:52	+gabebw	#
+2014-05-27 16:51:54	+gabebw	# plugins.conf -- weechat v0.4.3
+2014-05-27 16:51:56	+gabebw	#
+2014-05-27 16:51:58	+gabebw	[var]
+2014-05-27 16:52:00	+gabebw	fifo.fifo = "on"
+2014-05-27 16:52:02	+gabebw	perl.check_license = "off"
+2014-05-27 16:52:04	+gabebw	tcl.check_license = "off"
+2014-05-27 16:52:06	+gabebw	[desc]
+2014-05-27 16:52:25	+djcp	I wanted to configure "http://notify_send.pl ", that's apparently the place to do it.
+2014-05-27 16:53:44	--	Mode #weechat [-v derek : away] by derek
+2014-05-27 16:53:53	--	Mode #weechat [+v derek : active] by derek
+2014-05-27 16:54:18	--	Mode #weechat [+v pbrisbin : active] by pbrisbin
+2014-05-27 16:54:18	+pbrisbin	djcp: editing config files directly isn't really a good idea
+2014-05-27 16:54:33	+pbrisbin	better to use /set and iset
+2014-05-27 16:55:28	+djcp	that was not apparent to me. Thanks, I'll check it out
+2014-05-27 16:55:50	+pbrisbin	it can be done, just tricky. weechat (over)writes that file on /quit and /save
+2014-05-27 16:56:00	+pbrisbin	so if you make out-of-band changes, you have to /reload them
+2014-05-27 16:57:25	--	Mode #weechat [-v djcp : away] by djcp
+2014-05-27 16:57:32	--	Mode #weechat [+v djcp : active] by djcp
+2014-05-27 16:57:47	+jferris	knowing about the config files is nice even if you don't edit them
+2014-05-27 16:58:10	+jferris	searching in Vim/grep is way easier than searching in weechat, even with iset
+2014-05-27 17:02:25	+keithsmiley	You can turn off the write on quit if you want
+2014-05-27 17:03:10	+keithsmiley	 /set weechat.look.save_config_on_exit off
+2014-05-27 17:03:33	+jferris	it would be sort of nice if it just wrote as soon as you called /set
+2014-05-27 17:03:35	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-27 17:04:44	--	Mode #weechat [-v blake : away] by blake
+2014-05-27 17:06:01	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-27 17:08:33	+djcp	Ok. Now that I've got http://buffers.pl  activated, and I think notifications working how I want, I can work with weechat. It's been a while, but it seems much more capable than irssi.
+2014-05-27 17:09:01	+derek	How can I reorder my buffers (with http://buffers.pl ). Preferably in a persistent way (I *always* want #general, #code, #cengage, (#stuff slack makes me have))
+2014-05-27 17:09:19	+jferris	check out /help buffer, particularly the sections on swap and move
+2014-05-27 17:09:24	+pbrisbin	i think there is a way to group it by server, which i think is what you're asking for
+2014-05-27 17:10:11	+jferris	persistent order would be nice
+2014-05-27 17:10:32	+jferris	also I'm interested if anybody has found a way not to autojoin rooms like ios/design
+2014-05-27 17:11:34	+derek	jferris: I don't think that's possible. You can set them not to highlight, but that's the best you can do I think.
+2014-05-27 17:11:58	+pbrisbin	it auto joins when you start the client even if your autojoin setting is empty?
+2014-05-27 17:12:23	+jferris	my setting is undefined
+2014-05-27 17:12:45	+pbrisbin	you might be able automate sending "/close" to those buffers when opened
+2014-05-27 17:13:03	+pbrisbin	though that might make it so you can never choose to join either...
+2014-05-27 17:13:31	+jferris	pbrisbin: if you disconnect from thoughtbot and then reconnect, does it join a bunch of channels?
+2014-05-27 17:13:43	+pbrisbin	i suppose i can check that
+2014-05-27 17:13:49	--	Mode #weechat [-v pbrisbin : away] by pbrisbin
+2014-05-27 17:13:53	--	Mode #weechat [+v pbrisbin : active] by pbrisbin
+2014-05-27 17:14:01	+pbrisbin	yup
+2014-05-27 17:14:12	+derek	`/layout save buffers` seems to have done the trick for making my buffer list order persistent...
+2014-05-27 17:14:26	+pbrisbin	jferris: this is less of an issue in my always-on worldview
+2014-05-27 17:14:46	+derek	it's super annoying if you use shortcuts to cycle through joined channels
+2014-05-27 17:14:59	+derek	or you have access to a lot of channels
+2014-05-27 17:15:03	+pbrisbin	agreed. that's why i /close out of them
+2014-05-27 17:15:08	+jferris	I don't think it's fair to expect everybody to run IRC on their own server, though...
+2014-05-27 17:15:16	+pbrisbin	agreed
+2014-05-27 17:15:21	+pbrisbin	is it because they're private groups?
+2014-05-27 17:15:27	+derek	I thought they came back if you /close them
+2014-05-27 17:15:33	+pbrisbin	i've not experienced that
+2014-05-27 17:15:42	+derek	I might be making that up
+2014-05-27 17:15:42	+pbrisbin	only on a reconnect will they come back
+2014-05-27 17:15:48	+pbrisbin	s/will/did
+2014-05-27 17:16:03	+jferris	they come back on a reconnect, yeah
+2014-05-27 17:16:18	+derek	I can deal with that. There must be a "after connect, do this" script, right?
+2014-05-27 17:16:25	--	Mode #weechat [-v jferris : away] by jferris
+2014-05-27 17:16:26	+pbrisbin	someone mentioned having a tbot digital ocean for us all to share
+2014-05-27 17:16:27	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-27 17:16:46	+pbrisbin	derek: yes, built in at the server level, but probably a script for buffer-specific auto commands
+2014-05-27 17:17:42	--	Mode #weechat [-v djcp : away] by djcp
+2014-05-27 17:19:56	+jferris	I didn't know "autojoin these channels" was a thing that servers could send
+2014-05-27 17:21:15	+pbrisbin	me either
+2014-05-27 17:22:53	--	Mode #weechat [-v jferris : away] by jferris
+2014-05-27 17:22:57	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-27 17:29:32	+jferris	there's a -nojoin option to /connect but it still joins those rooms
+2014-05-27 17:30:14	+pbrisbin	yeah it seems to be bypassing any (auto|no)join behavior the client might have :/
+2014-05-27 17:30:35	--	Mode #weechat [-v goose : away] by goose
+2014-05-27 17:30:47	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-27 17:34:59	+jferris	this problem may just go away if we switch to the "no private groups" model
+2014-05-27 17:35:35	--	Mode #weechat [-v jsteiner : away] by jsteiner
+2014-05-27 18:32:15	--	irc: disconnected from server
+2014-05-27 18:32:25	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 18:32:25	--	Topic for #weechat is ""We Chattin""
+2014-05-27 18:32:25	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 18:32:25	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 18:32:25	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 18:32:37	--	Mode #weechat [+nt]
+2014-05-27 18:32:37	--	Channel created on Tue, 27 May 2014 18:32:36
+2014-05-27 19:33:01	--	irc: disconnected from server
+2014-05-27 19:33:11	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 19:33:11	--	Topic for #weechat is ""We Chattin""
+2014-05-27 19:33:11	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 19:33:11	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 19:33:11	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 19:33:23	--	Mode #weechat [+nt]
+2014-05-27 19:33:23	--	Channel created on Tue, 27 May 2014 19:33:22
+2014-05-27 20:33:49	--	irc: disconnected from server
+2014-05-27 20:33:59	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 20:33:59	--	Topic for #weechat is ""We Chattin""
+2014-05-27 20:33:59	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 20:33:59	--	Mode #weechat [+v goose : active] by goose
+2014-05-27 20:33:59	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 20:34:11	--	Mode #weechat [+nt]
+2014-05-27 20:34:11	--	Channel created on Tue, 27 May 2014 20:34:11
+2014-05-27 20:53:36	--	irc: disconnected from server
+2014-05-27 22:25:01	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 22:25:01	--	Topic for #weechat is ""We Chattin""
+2014-05-27 22:25:01	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 22:25:01	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-27 22:25:01	--	Mode #weechat [+v goose : active] by goose
+2014-05-27 22:25:01	--	Mode #weechat [+v tony : active] by tony
+2014-05-27 22:25:01	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 22:25:12	--	Mode #weechat [+nt]
+2014-05-27 22:25:12	--	Channel created on Tue, 27 May 2014 22:25:12
+2014-05-27 22:26:35	--	Mode #weechat [-v tony : away] by tony
+2014-05-27 22:28:00	--	irc: disconnected from server
+2014-05-27 22:28:10	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 22:28:10	--	Topic for #weechat is ""We Chattin""
+2014-05-27 22:28:10	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 22:28:10	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-27 22:28:10	--	Mode #weechat [+v goose : active] by goose
+2014-05-27 22:28:10	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 22:28:22	--	Mode #weechat [+nt]
+2014-05-27 22:28:22	--	Channel created on Tue, 27 May 2014 22:28:22
+2014-05-27 22:34:24	--	Mode #weechat [-v goose : away] by goose
+2014-05-27 22:36:35	--	Mode #weechat [-v jsteiner : away] by jsteiner
+2014-05-27 22:38:30	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-27 22:39:05	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-27 22:40:05	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-27 22:40:45	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-27 22:40:45	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 22:41:45	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-27 22:51:45	--	Mode #weechat [+v desi : active] by desi
+2014-05-27 23:11:35	--	Mode #weechat [-v keithsmiley : away] by keithsmiley
+2014-05-27 23:11:35	--	Mode #weechat [-v jsteiner : away] by jsteiner
+2014-05-27 23:22:35	--	Mode #weechat [-v desi : away] by desi
+2014-05-27 23:25:08	--	Mode #weechat [+v tony : active] by tony
+2014-05-27 23:26:35	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 23:26:35	--	Topic for #weechat is ""We Chattin""
+2014-05-27 23:26:35	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 23:26:35	--	Mode #weechat [+v tony : active] by tony
+2014-05-27 23:26:35	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 23:26:43	--	Mode #weechat [+nt]
+2014-05-27 23:26:43	--	Channel created on Tue, 27 May 2014 23:26:43
+2014-05-27 23:27:35	--	Mode #weechat [-v tony : away] by tony
+2014-05-27 23:39:15	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-27 23:39:51	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-27 23:40:45	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 23:44:03	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-27 23:53:25	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 23:53:25	--	Topic for #weechat is ""We Chattin""
+2014-05-27 23:53:25	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 23:53:25	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-27 23:53:25	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 23:53:25	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 23:53:33	--	Mode #weechat [+nt]
+2014-05-27 23:53:33	--	Channel created on Tue, 27 May 2014 23:53:33
+2014-05-27 23:55:08	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-27 23:56:25	--	irc: disconnected from server
+2014-05-27 23:56:36	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-27 23:56:36	--	Topic for #weechat is ""We Chattin""
+2014-05-27 23:56:36	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-27 23:56:36	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-27 23:56:36	--	Mode #weechat [+v justin : active] by justin
+2014-05-27 23:56:48	--	Mode #weechat [+nt]
+2014-05-27 23:56:48	--	Channel created on Tue, 27 May 2014 23:56:48
+2014-05-28 09:32:26	--	irc: disconnected from server
+2014-05-28 09:32:57	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 09:32:57	--	Topic for #weechat is ""We Chattin""
+2014-05-28 09:32:57	--	Channel #weechat: 17 nicks (0 ops, 0 voices, 17 normals)
+2014-05-28 09:32:57	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 09:32:57	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 09:32:57	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 09:32:57	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 09:32:57	--	Mode #weechat [+v mike-burns : active] by mike-burns
+2014-05-28 09:32:57	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 09:32:57	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 09:33:08	--	Mode #weechat [+v tony : active] by tony
+2014-05-28 09:33:08	--	Mode #weechat [+nt]
+2014-05-28 09:33:08	--	Channel created on Wed, 28 May 2014 09:33:07
+2014-05-28 09:33:50	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 09:36:40	--	Mode #weechat [-v tony : away] by tony
+2014-05-28 09:36:40	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 09:44:52	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 09:55:43	--	Mode #weechat [+v tony : active] by tony
+2014-05-28 09:57:47	<--	tony (tony@irc.tinyspeck.com) has left #weechat
+2014-05-28 10:03:12	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 10:03:12	--	Topic for #weechat is ""We Chattin""
+2014-05-28 10:03:12	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 10:03:12	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 10:03:12	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 10:03:12	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 10:03:12	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 10:03:12	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 10:03:12	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 10:03:12	--	Mode #weechat [+v mike-burns : active] by mike-burns
+2014-05-28 10:03:12	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 10:03:12	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 10:03:12	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 10:03:20	--	Mode #weechat [+nt]
+2014-05-28 10:03:20	--	Channel created on Wed, 28 May 2014 10:03:20
+2014-05-28 10:09:33	+gabebw	how do i click a link in weechat
+2014-05-28 10:10:06	+mike-burns	I use gnome-terminal, so ctrl+click.
+2014-05-28 10:10:17	+gabebw	I use cmd-click but it doesn't find the whole URL
+2014-05-28 10:10:25	+gabebw	i.e. if the URL is long and spans >1 line
+2014-05-28 10:10:36	+jferris	gabebw: check out the url grab script
+2014-05-28 10:10:46	+jferris	http://www.weechat.org/files/scripts/urlgrab.py 
+2014-05-28 10:10:49	+mike-burns	Ah. I use shortenurl.py for that.
+2014-05-28 10:10:57	+jferris	it saves URls into a list which you can browse or just open
+2014-05-28 10:11:08	+jferris	if you were running it, you could open the above url by typing "/url 1"
+2014-05-28 10:11:13	+gabebw	aha
+2014-05-28 10:11:35	--	Mode #weechat [-v keithsmiley : away] by keithsmiley
+2014-05-28 10:11:58	+blake	There's also `http://coords.pl ` that lets you click to copy it into the buffer.
+2014-05-28 10:13:36	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-28 10:13:44	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 10:14:01	+justin	jferris: with urlgrab do you have to set your browser before it will open the url?
+2014-05-28 10:15:07	+gabebw	maybe i'm just terrible at weechat, but i installed http://coords.pl  and urlgrab.py and /url 1 doesn't work and clicking a URL just, like, does nothing
+2014-05-28 10:15:29	+gabebw	And Weechat is installed with Python and Perl
+2014-05-28 10:15:51	+gabebw	This must be how new Vim users feel.
+2014-05-28 10:16:22	+mike-burns	Do you have any error messages in buffer 1?
+2014-05-28 10:16:27	+blake	Did you do `/mouse enable`?
+2014-05-28 10:16:57	+jferris	gabebw: you need to configure like every script you install
+2014-05-28 10:17:05	+jferris	for urlgrab, you need to configure the program it uses to open URLs
+2014-05-28 10:17:23	+gabebw	"No URL found - Invalid channel"
+2014-05-28 10:17:32	+gabebw	oh, dang it
+2014-05-28 10:17:35	+jferris	try: /set urlgrab.default.localcmd "open '%s'"
+2014-05-28 10:18:03	+jferris	I also did: /set urlgrab.default.output_main_buffer off
+2014-05-28 10:18:28	+jferris	after installing something, I think it's good to search for that plugin in iset and see what's there
+2014-05-28 10:19:00	+mike-burns	After I install foo.py, I do   /set *foo*   to see what my options are.
+2014-05-28 10:19:24	+jferris	yeah, that works, too
+2014-05-28 10:19:58	+justin	also if you are using OS X and iTerm I think you can just command click any link by default
+2014-05-28 10:20:16	+jferris	not if it wraps lines, though
+2014-05-28 10:20:19	+mike-burns	Some links are too long and wrap. You can use shortenurl.py to work around that.
+2014-05-28 10:20:23	+jferris	so you need either a url shortener or a url grabber
+2014-05-28 10:20:41	+justin	ahh i see
+2014-05-28 10:21:07	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-28 10:21:12	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 10:22:02	+gabebw	http://www.longurlmaker.com/go?id=61301URL6m0lnk.in1wrlingeringlasting2UlimitUlimitURLCutter2EzURLMinilienbgreatrangyganglingfDecentURL3lqextensivebURLCutter277tallShrtnd8oURLcut41protracted2high3B65elongateB65d1greatSitelutions9spread%2Bout40300f01150141kSimURLstringy62ShortURLdistantShorl87stringytall91YepIt0spun%2BoutSimURLcd149farawayyexpanded8deepdeep0protracted1Ne1great0fr110zfar%2Breac 
+2014-05-28 10:22:02		[ http://is.gd/api.php?longurl=http%3A%2F%2Fwww.longurlmaker.com%2Fgo%3Fid%3D61301URL6m0lnk.in1wrlingeringlasting2UlimitUlimitURLCutter2EzURLMinilienbgreatrangyganglingfDecentURL3lqextensivebURLCutter277tallShrtnd8oURLcut41protracted2high3B65elongateB65d1greatSitelutions9spread%252Bout40300f01150141kSimURLstringy62ShortURLdistantShorl87stringytall91YepIt0spun%252BoutSimURLcd149farawayyexpanded8deepdeep0protracted1Ne1great0fr110zfar%252Breac ]
+2014-05-28 10:22:04	+gabebw	hingcdb146ShortURL10sustained9great1fextensivet1TightURL01zFhURL12far%2Breachingfar%2Boff1URLCutterl0ye1MooURLoutstretchedURLvia0a0sustained6spun%2Bout1URLvi3w0Ulimit4vdrawn%2Boutcdfaraway17f6URL5j11p16U763URLHawk100NutshellURL107s1protractedf111TightURLprolongedURLCutter8TinyURL4NotLongstretchShorl3117rangy1spun%2Bout1103highWapURLugreata4431FwdURL30prolongedstretching18v050elongateYepItling
+2014-05-28 10:22:06	+gabebw	eringbURL.co.ukh62Shrinkr699spun%2BoutSimURLDecentURLvlastingMinilienb0z50984LiteURLYepIt510wSitelutionslnk.inNanoReflofty699Xil0015stretchedrangylengthened870o1RedirxremotekMetamarkU7651r1afdeep3xmspread%2Bouta0drawn%2Boutc1SitelutionsupXilB6504ShoterLinkSimURL3elongatedvoutstretchedShrinkURLj7Ulimittall1hfarawayTraceURLBeam.toad115b0outstretched1aa0far%2Breaching1Shim95nenduring3b0lastingLi
+2014-05-28 10:22:08	+gabebw	teURLfarawaystretchedgangling06iRedirxG8Lenlarged7m8082l1931ad2high0DecentURLspread%2Boutlankyr891U760ShortURLc920StartURLU76prolongedlengthenedd1enduringStartURLstretched7t3ShoterLinkCanURL030090z110drawn%2Bout2b0p08URLPieenduringcEzURL11SitelutionscMooURLgdgreataDwarfurlj0c8747Shorl0aielnk.inRedirxSimURLdrawn%2Bout18lankyTinyURL10longish1deep97qTinyURLRubyURLfar%2BreachingShortURLlasting381
+2014-05-28 10:22:10	+gabebw	29longish11farawayc016SitelutionsMinilienTinyURLenlarged1extensive7ShortenURLstretcheddRedirx3FhURLstretchURL.co.ukrangyShrinkURLexpandedYepItyFhURL610a3LiteURL3tall922ctall301URL12SnipURL7rangy03farawayrangyytallb5URLvi00remoteURLHawkkstretch411o3elongate151w0xbgcontinued12lengthenedCanURL407191a0edistantoaWapURLyprolongedlengthenedRedirx3greateTraceURL8enduringcontinueddlastingSnipURL04179M
+2014-05-28 10:22:12	+gabebw	etamark1iShorlSitelutions7continued970701eDoiopIs.gd1towering322distant6g01pspun%2Boutlastinge5enlarged98z1w6lengthened00lengthenedoutstretche
+2014-05-28 10:22:14	+gabebw	hahahaha oops
+2014-05-28 10:22:17	+gabebw	I tried to find a long url and succeeded too much
+2014-05-28 10:22:32	+justin	ha... I thought I installed a rogue script
+2014-05-28 10:23:28	+jferris	haha
+2014-05-28 10:27:13	--	Mode #weechat [+v djcp : active] by djcp
+2014-05-28 10:28:05	+mxie	testing something...
+2014-05-28 10:28:07	+mxie	https://www.google.com/search?q=weechat+urlgrab&oq=weechat+urlgrab&aqs=chrome..69i57j69i60.5175j0j1&sourceid=chrome&es_sm=119&ie=UTF-8 
+2014-05-28 10:28:09		[ http://is.gd/mMcsZx ]
+2014-05-28 10:29:30	+mxie	Ok, perfect.
+2014-05-28 10:32:25	+blake	shell.py is kind of neat, run shell commands and can send output to your current buffer.
+2014-05-28 10:32:37	+blake	Darwin
+2014-05-28 10:32:52	+blake	Darwin Blakes-MBP.local 13.1.0 Darwin Kernel Version 13.1.0: Wed Apr  2 23:52:02 PDT 2014; root:xnu-2422.92.1~2/RELEASE_X86_64 x86_64
+2014-05-28 10:34:34	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 10:34:34	+gfontenot	Is there something that I can do to introduce a bit more randomness to the nick colors? https://files.app.net/2gphnHOZg.png 
+2014-05-28 10:34:36		[ http://is.gd/RUq2Ip ]
+2014-05-28 10:34:56	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 10:35:12	+gfontenot	I feel like everyone is either gray or purple.
+2014-05-28 10:35:20	+blake	I set irc.look.nick_color_hash to `djb2` instead of sum and it helped a bit.
+2014-05-28 10:35:36	+blake	There's also a nick colors option, more variety more chances.
+2014-05-28 10:40:46	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 10:45:30	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 10:45:30	--	Topic for #weechat is ""We Chattin""
+2014-05-28 10:45:30	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 10:45:30	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 10:45:30	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 10:45:30	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 10:45:30	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 10:45:30	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 10:45:30	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 10:45:30	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 10:45:30	--	Mode #weechat [+v mike-burns : active] by mike-burns
+2014-05-28 10:45:30	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 10:45:30	--	Mode #weechat [+v djcp : active] by djcp
+2014-05-28 10:45:30	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 10:45:30	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 10:45:37	--	Mode #weechat [+nt]
+2014-05-28 10:45:37	--	Channel created on Wed, 28 May 2014 10:45:37
+2014-05-28 10:51:57	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-28 10:51:58	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 10:52:23	+mxie	blake: do we have to reload or something to make that go into effect?
+2014-05-28 10:52:35	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-28 10:52:39	+blake	I think it will take effect on new messages, not old.
+2014-05-28 10:52:58	+mxie	yup!
+2014-05-28 10:53:01	+mxie	Just confirmed
+2014-05-28 10:53:45	+gfontenot	How do you reload? Quit and restart?
+2014-05-28 10:53:55	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 10:54:09	+blake	Should be `/reload`
+2014-05-28 10:54:14	+blake	Erm, /load
+2014-05-28 10:54:26	+blake	No, definitely `/reload`
+2014-05-28 10:54:36	+gfontenot	there we go
+2014-05-28 10:54:39	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-28 10:54:40	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 10:54:42	+gfontenot	now you're green
+2014-05-28 10:54:47	+blake	And you're yellow.
+2014-05-28 10:55:01	+mxie	you're all some variation of pastel purple
+2014-05-28 10:55:18	+mxie	harder to distinguish, unfortunately :(
+2014-05-28 10:55:58	+blake	There's an option to do nick colors, do `/iset nick` and find the color option.
+2014-05-28 10:56:15	+blake	`weechat --colors` is handy for that too
+2014-05-28 10:56:23	+justin	weechat --colors
+2014-05-28 10:56:26	+justin	haha
+2014-05-28 10:56:27	+justin	oops
+2014-05-28 10:56:34	+mxie	yeah, you can run /color as the command too
+2014-05-28 10:56:45	+blake	I made a crappy document on a lot of this stuff as a private gist here, https://gist.github.com/BlakeWilliams/5787b18d11cb25fd6c22 
+2014-05-28 10:56:47		[ http://is.gd/g0joLG ]
+2014-05-28 10:56:47	+blake	blake shared a file: https://thoughtbot.slack.com/files/blake/F02ALB35A/weechat.md 
+2014-05-28 10:56:49		[ http://is.gd/kauNwm ]
+2014-05-28 10:57:36	--	Mode #weechat [-v djcp : away] by djcp
+2014-05-28 10:58:06	+derek	blake: that was really helpful
+2014-05-28 10:58:40	+blake	Thanks! Glad you could get some use out of it.
+2014-05-28 11:00:34	+mxie	Yeah, this is great Blake - thanks!
+2014-05-28 11:04:34	+gfontenot	oohhh, nice
+2014-05-28 11:04:57	+gfontenot	Also: https://github.com/fitztrev/weechat-zmq-notifier 
+2014-05-28 11:04:58		[ http://is.gd/3bvPj1 ]
+2014-05-28 11:05:09	+gfontenot	and https://github.com/sindresorhus/weechat-notification-center 
+2014-05-28 11:05:09		[ http://is.gd/F7sS3u ]
+2014-05-28 11:05:30	+gfontenot	I'm going to try the former, since I run weechat on my raspberry pi at home
+2014-05-28 11:05:34	+gfontenot	Will report back
+2014-05-28 11:06:28	+gfontenot	does /reload do a soft restart? Like, will it pick up new plugins?
+2014-05-28 11:06:40	+blake	New plugins should automatically start.
+2014-05-28 11:06:47	+blake	You can always do `/script` and find it in there.
+2014-05-28 11:07:39	+gfontenot	Not plugins installed with /plugin, but something linked into weechat/autoload
+2014-05-28 11:08:39	+blake	No idea, a `/reload` would probably pick it up.
+2014-05-28 11:09:40	+mike-burns	/reload will re-read files.
+2014-05-28 11:11:35	--	Mode #weechat [-v keithsmiley : away] by keithsmiley
+2014-05-28 11:12:52	--	Mode #weechat [+v goose : active] by goose
+2014-05-28 11:13:22	+gabebw	the short URl script is working! I see http://is.gd  links all over. Neat.
+2014-05-28 11:13:54	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-28 11:14:02	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 11:14:34	+mike-burns	I like that one so much that I installed it on my other weechat.
+2014-05-28 11:30:35	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-28 11:36:10	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 11:36:10	--	Topic for #weechat is ""We Chattin""
+2014-05-28 11:36:10	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 11:36:10	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 11:36:10	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 11:36:10	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 11:36:10	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 11:36:10	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 11:36:10	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 11:36:10	--	Mode #weechat [+v mike-burns : active] by mike-burns
+2014-05-28 11:36:10	--	Mode #weechat [+v goose : active] by goose
+2014-05-28 11:36:10	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 11:36:10	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 11:36:17	--	Mode #weechat [+nt]
+2014-05-28 11:36:17	--	Channel created on Wed, 28 May 2014 11:36:17
+2014-05-28 11:37:21	+justin	has anyone gotten the OSX notifications to work?
+2014-05-28 11:37:35	--	Mode #weechat [-v jferris : away] by jferris
+2014-05-28 11:38:08	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 11:40:16	+blake	I've just been using http://beep.pl  to get it to highlight tmux for me.
+2014-05-28 11:40:46	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 11:41:46	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 11:41:46	--	Topic for #weechat is ""We Chattin""
+2014-05-28 11:41:46	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 11:41:46	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 11:41:46	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 11:41:46	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 11:41:46	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 11:41:46	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 11:41:46	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 11:41:46	--	Mode #weechat [+v mike-burns : active] by mike-burns
+2014-05-28 11:41:46	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 11:41:46	--	Mode #weechat [+v goose : active] by goose
+2014-05-28 11:41:46	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 11:41:46	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 11:41:53	--	Mode #weechat [+nt]
+2014-05-28 11:41:53	--	Channel created on Wed, 28 May 2014 11:41:53
+2014-05-28 11:49:21	+gfontenot	Oh, I bet you could use that to just run terminal-notifier
+2014-05-28 11:49:26	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 11:49:34	--	Mode #weechat [-v mike-burns : away] by mike-burns
+2014-05-28 11:49:35	--	Mode #weechat [-v goose : away] by goose
+2014-05-28 11:50:27	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 11:50:27	--	Topic for #weechat is ""We Chattin""
+2014-05-28 11:50:27	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 11:50:27	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 11:50:27	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 11:50:27	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 11:50:27	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 11:50:27	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 11:50:27	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 11:50:27	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 11:50:27	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 11:50:27	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 11:50:27	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 11:50:35	--	Mode #weechat [+nt]
+2014-05-28 11:50:35	--	Channel created on Wed, 28 May 2014 11:50:35
+2014-05-28 11:50:56	+jferris	there's a terminal notifier script
+2014-05-28 11:51:33	+jferris	http://www.weechat.org/scripts/source/notification_center.py.html/ 
+2014-05-28 11:51:33		[ http://is.gd/51UhzZ ]
+2014-05-28 11:51:43	+jferris	you need to brew install terminal-notifier first
+2014-05-28 11:53:35	--	Mode #weechat [-v jsteiner : away] by jsteiner
+2014-05-28 11:53:38	+gfontenot	Actually, I bet none of these will work if you're running weechat remotely
+2014-05-28 11:53:54	+gfontenot	$bell might, I guess
+2014-05-28 12:28:04	--	irc: disconnected from server
+2014-05-28 12:28:14	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 12:28:14	--	Topic for #weechat is ""We Chattin""
+2014-05-28 12:28:14	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 12:28:14	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 12:28:14	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 12:28:14	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 12:28:14	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 12:28:14	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 12:28:26	--	Mode #weechat [+nt]
+2014-05-28 12:28:26	--	Channel created on Wed, 28 May 2014 12:28:26
+2014-05-28 12:28:39	--	Mode #weechat [+v goose : active] by goose
+2014-05-28 13:04:24	--	irc: disconnected from server
+2014-05-28 13:04:34	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:04:34	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:04:34	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:04:34	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:04:34	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:04:34	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:04:34	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:04:34	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 13:04:34	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 13:04:34	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:04:34	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:04:46	--	Mode #weechat [+nt]
+2014-05-28 13:04:46	--	Channel created on Wed, 28 May 2014 13:04:46
+2014-05-28 13:13:36	--	Mode #weechat [-v mxie : away] by mxie
+2014-05-28 13:14:34	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:20:36	--	Mode #weechat [-v anna : away] by anna
+2014-05-28 13:22:36	--	Mode #weechat [-v keithsmiley : away] by keithsmiley
+2014-05-28 13:26:38	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:26:38	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:26:38	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:26:38	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:26:38	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:26:38	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:26:38	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:26:38	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 13:26:38	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:26:45	--	Mode #weechat [+nt]
+2014-05-28 13:26:45	--	Channel created on Wed, 28 May 2014 13:26:45
+2014-05-28 13:34:01	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:34:01	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:34:01	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:34:01	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:34:01	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:34:01	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:34:01	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:34:01	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:34:01	--	Mode #weechat [+v jferris : active] by jferris
+2014-05-28 13:34:01	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:34:08	--	Mode #weechat [+nt]
+2014-05-28 13:34:08	--	Channel created on Wed, 28 May 2014 13:34:08
+2014-05-28 13:34:10	--	Mode #weechat [-v jferris : away] by jferris
+2014-05-28 13:38:00	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:38:00	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:38:00	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:38:00	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:38:00	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:38:00	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:38:00	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:38:00	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:38:00	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:38:07	--	Mode #weechat [+nt]
+2014-05-28 13:38:07	--	Channel created on Wed, 28 May 2014 13:38:07
+2014-05-28 13:38:50	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:38:50	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:38:50	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:38:50	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:38:50	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:38:50	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:38:50	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:38:50	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:38:50	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:38:58	--	Mode #weechat [+nt]
+2014-05-28 13:38:58	--	Channel created on Wed, 28 May 2014 13:38:58
+2014-05-28 13:39:27	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:39:27	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:39:27	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:39:27	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:39:27	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:39:27	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:39:27	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:39:27	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:39:27	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:43:02	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:43:02	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:43:02	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:43:02	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:43:02	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:43:02	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:43:02	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:43:02	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:43:02	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:43:02	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:43:09	--	Mode #weechat [+nt]
+2014-05-28 13:43:09	--	Channel created on Wed, 28 May 2014 13:43:09
+2014-05-28 13:43:14	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:43:14	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:43:14	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:43:14	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:43:14	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:43:14	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:43:14	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:43:14	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:43:14	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:43:14	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:43:53	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:43:53	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:43:53	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:43:53	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:43:53	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:43:53	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:43:53	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:43:53	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:43:53	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:43:53	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:44:00	--	Mode #weechat [+nt]
+2014-05-28 13:44:00	--	Channel created on Wed, 28 May 2014 13:44:00
+2014-05-28 13:45:02	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:45:02	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:45:02	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:45:02	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:45:02	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:45:02	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:45:02	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:45:02	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:45:02	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:45:02	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:45:10	--	Mode #weechat [+nt]
+2014-05-28 13:45:10	--	Channel created on Wed, 28 May 2014 13:45:09
+2014-05-28 13:46:05	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:46:05	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:46:05	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:46:05	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:46:05	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:46:05	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:46:05	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:46:05	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:46:05	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:46:05	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:47:12	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:47:12	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:47:12	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:47:12	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:47:12	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:47:12	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:47:12	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:47:12	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:47:12	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:47:12	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:47:12	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:47:20	--	Mode #weechat [+nt]
+2014-05-28 13:47:20	--	Channel created on Wed, 28 May 2014 13:47:21
+2014-05-28 13:49:58	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:49:58	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:49:58	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:49:58	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:49:58	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:49:58	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:49:58	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:49:58	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:49:58	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:49:58	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:49:58	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:50:06	--	Mode #weechat [+nt]
+2014-05-28 13:50:06	--	Channel created on Wed, 28 May 2014 13:50:06
+2014-05-28 13:53:06	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:53:06	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:53:06	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:53:06	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:53:06	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:53:06	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:53:06	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:53:06	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:53:06	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:53:06	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:53:06	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:53:13	--	Mode #weechat [+nt]
+2014-05-28 13:53:13	--	Channel created on Wed, 28 May 2014 13:53:13
+2014-05-28 13:53:22	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:53:23	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:53:23	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:53:23	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:53:23	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:53:23	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:53:23	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:53:23	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:53:23	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:53:23	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:53:23	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:53:50	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:53:50	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:53:50	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:53:50	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:53:50	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:53:50	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:53:50	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:53:50	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:53:50	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:53:50	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:53:50	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:53:50	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:55:58	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:55:58	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:55:58	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:55:58	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:55:58	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:55:58	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:55:58	--	Mode #weechat [+v jsteiner : active] by jsteiner
+2014-05-28 13:55:58	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:55:58	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:55:58	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:55:58	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:56:05	--	Mode #weechat [+nt]
+2014-05-28 13:56:05	--	Channel created on Wed, 28 May 2014 13:56:05
+2014-05-28 13:57:50	--	Mode #weechat [-v jsteiner : away] by jsteiner
+2014-05-28 13:58:13	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 13:58:13	--	Topic for #weechat is ""We Chattin""
+2014-05-28 13:58:13	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 13:58:13	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 13:58:13	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 13:58:13	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 13:58:13	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 13:58:13	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:58:13	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 13:58:13	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 13:58:20	--	Mode #weechat [+nt]
+2014-05-28 13:58:20	--	Channel created on Wed, 28 May 2014 13:58:20
+2014-05-28 14:02:59	--	Mode #weechat [+v desi : active] by desi
+2014-05-28 14:03:26	-->	justin (justin@irc.tinyspeck.com) has joined #weechat
+2014-05-28 14:03:26	--	Topic for #weechat is ""We Chattin""
+2014-05-28 14:03:26	--	Channel #weechat: 16 nicks (0 ops, 0 voices, 16 normals)
+2014-05-28 14:03:26	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 14:03:26	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 14:03:26	--	Mode #weechat [+v blake : active] by blake
+2014-05-28 14:03:26	--	Mode #weechat [+v derek : active] by derek
+2014-05-28 14:03:26	--	Mode #weechat [+v keithsmiley : active] by keithsmiley
+2014-05-28 14:03:26	--	Mode #weechat [+v desi : active] by desi
+2014-05-28 14:03:26	--	Mode #weechat [+v anna : active] by anna
+2014-05-28 14:03:26	--	Mode #weechat [+v justin : active] by justin
+2014-05-28 14:03:34	--	Mode #weechat [+nt]
+2014-05-28 14:03:34	--	Channel created on Wed, 28 May 2014 14:03:34
+2014-05-28 14:03:36	--	Mode #weechat [-v blake : away] by blake
+2014-05-28 14:04:31	--	Mode #weechat [-v gabebw : away] by gabebw
+2014-05-28 14:04:42	--	Mode #weechat [-v gfontenot : away] by gfontenot
+2014-05-28 14:04:58	--	Mode #weechat [+v gabebw : active] by gabebw
+2014-05-28 14:04:59	--	Mode #weechat [+v calleerlandsson : active] by calleerlandsson
+2014-05-28 14:05:04	--	Mode #weechat [+v gfontenot : active] by gfontenot
+2014-05-28 14:05:06	--	Mode #weechat [+v mxie : active] by mxie
+2014-05-28 14:05:08	--	Mode #weechat [+v djcp : active] by djcp
+2014-05-28 14:06:36	--	Mode #weechat [+v jsteiner : active] by jsteiner

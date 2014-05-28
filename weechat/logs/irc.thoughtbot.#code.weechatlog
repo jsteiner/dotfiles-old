@@ -1,0 +1,2610 @@
+2014-05-23 13:00:53	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 13:00:53	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 13:00:53	--	Channel #code: 62 nicks (0 ops, 0 voices, 62 normals)
+2014-05-23 13:00:53	--	Mode #code [+v jasonramirez : active] by jasonramirez
+2014-05-23 13:00:53	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-23 13:00:53	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 13:00:53	--	Mode #code [+v draper : active] by draper
+2014-05-23 13:00:53	--	Mode #code [+v christian : active] by christian
+2014-05-23 13:00:53	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-23 13:00:53	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 13:00:53	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-23 13:00:53	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-23 13:00:53	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-23 13:00:53	--	Mode #code [+v blake : active] by blake
+2014-05-23 13:00:53	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-23 13:00:53	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-23 13:00:53	--	Mode #code [+v derek : active] by derek
+2014-05-23 13:00:53	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-23 13:00:53	--	Mode #code [+v will : active] by will
+2014-05-23 13:00:53	--	Mode #code [+v jferris : active] by jferris
+2014-05-23 13:00:53	--	Mode #code [+v chris : active] by chris
+2014-05-23 13:00:53	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-23 13:00:53	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 13:00:53	--	Mode #code [+v harry : active] by harry
+2014-05-23 13:00:53	--	Mode #code [+v eric : active] by eric
+2014-05-23 13:00:53	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 13:00:53	--	Mode #code [+v joelq : active] by joelq
+2014-05-23 13:00:53	--	Mode #code [+v melanie : active] by melanie
+2014-05-23 13:00:53	--	Mode #code [+v justin : active] by justin
+2014-05-23 13:00:53	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-23 13:00:53	--	Mode #code [+v russo : active] by russo
+2014-05-23 13:00:53	--	Mode #code [+v brenda : active] by brenda
+2014-05-23 13:00:53	--	Mode #code [+v desi : active] by desi
+2014-05-23 13:00:53	--	Mode #code [+v justin : active] by justin
+2014-05-23 13:00:56	+justin	boom
+2014-05-23 13:00:58	--	Mode #code [+nt]
+2014-05-23 13:00:58	--	Channel created on Fri, 23 May 2014 13:00:58
+2014-05-23 13:01:28	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 13:01:30	--	Mode #code [+v simon : active] by simon
+2014-05-23 13:03:04	--	irc: disconnected from server
+2014-05-23 13:03:40	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 13:03:40	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 13:03:40	--	Channel #code: 62 nicks (0 ops, 0 voices, 62 normals)
+2014-05-23 13:03:40	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 13:03:40	--	Mode #code [+v jasonramirez : active] by jasonramirez
+2014-05-23 13:03:40	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-23 13:03:40	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 13:03:40	--	Mode #code [+v draper : active] by draper
+2014-05-23 13:03:40	--	Mode #code [+v christian : active] by christian
+2014-05-23 13:03:40	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-23 13:03:40	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 13:03:40	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-23 13:03:40	--	Mode #code [+v trevor : active] by trevor
+2014-05-23 13:03:40	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-23 13:03:40	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-23 13:03:40	--	Mode #code [+v blake : active] by blake
+2014-05-23 13:03:40	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-23 13:03:40	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-23 13:03:40	--	Mode #code [+v derek : active] by derek
+2014-05-23 13:03:40	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-23 13:03:40	--	Mode #code [+v will : active] by will
+2014-05-23 13:03:40	--	Mode #code [+v simon : active] by simon
+2014-05-23 13:03:40	--	Mode #code [+v jferris : active] by jferris
+2014-05-23 13:03:40	--	Mode #code [+v chris : active] by chris
+2014-05-23 13:03:40	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-23 13:03:40	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 13:03:40	--	Mode #code [+v harry : active] by harry
+2014-05-23 13:03:40	--	Mode #code [+v eric : active] by eric
+2014-05-23 13:03:40	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 13:03:40	--	Mode #code [+v joelq : active] by joelq
+2014-05-23 13:03:40	--	Mode #code [+v melanie : active] by melanie
+2014-05-23 13:03:40	--	Mode #code [+v justin : active] by justin
+2014-05-23 13:03:40	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-23 13:03:40	--	Mode #code [+v russo : active] by russo
+2014-05-23 13:03:40	--	Mode #code [+v brenda : active] by brenda
+2014-05-23 13:03:40	--	Mode #code [+v desi : active] by desi
+2014-05-23 13:03:40	--	Mode #code [+v justin : active] by justin
+2014-05-23 13:03:43	--	Mode #code [+nt]
+2014-05-23 13:03:43	--	Channel created on Fri, 23 May 2014 13:03:43
+2014-05-23 13:04:26	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-23 13:04:30	--	Mode #code [-v mjankowski : away] by mjankowski
+2014-05-23 13:04:49	--	Mode #code [+v phil : active] by phil
+2014-05-23 13:07:21	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-23 13:07:21	--	Mode #code [-v russo : away] by russo
+2014-05-23 13:07:21	--	Mode #code [-v kylefiedler : away] by kylefiedler
+2014-05-23 13:07:21	--	Mode #code [-v melanie : away] by melanie
+2014-05-23 14:07:37	--	irc: disconnected from server
+2014-05-23 14:07:47	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 14:07:47	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 14:07:47	--	Channel #code: 62 nicks (0 ops, 0 voices, 62 normals)
+2014-05-23 14:07:47	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 14:07:47	--	Mode #code [+v jasonramirez : active] by jasonramirez
+2014-05-23 14:07:47	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-23 14:07:47	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 14:07:47	--	Mode #code [+v draper : active] by draper
+2014-05-23 14:07:47	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-23 14:07:47	--	Mode #code [+v christian : active] by christian
+2014-05-23 14:07:47	--	Mode #code [+v dgalarza : active] by dgalarza
+2014-05-23 14:07:47	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 14:07:47	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-23 14:07:47	--	Mode #code [+v trevor : active] by trevor
+2014-05-23 14:07:47	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-23 14:07:47	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-23 14:07:47	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-23 14:07:47	--	Mode #code [+v iwz : active] by iwz
+2014-05-23 14:07:47	--	Mode #code [+v will : active] by will
+2014-05-23 14:07:47	--	Mode #code [+v harry : active] by harry
+2014-05-23 14:07:47	--	Mode #code [+v eric : active] by eric
+2014-05-23 14:07:47	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 14:07:47	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-23 14:07:47	--	Mode #code [+v justin : active] by justin
+2014-05-23 14:07:47	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-23 14:07:47	--	Mode #code [+v brenda : active] by brenda
+2014-05-23 14:07:47	--	Mode #code [+v justin : active] by justin
+2014-05-23 14:07:55	--	Mode #code [+nt]
+2014-05-23 14:07:55	--	Channel created on Fri, 23 May 2014 14:07:54
+2014-05-23 14:08:22	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-23 14:59:00	--	irc: disconnected from server
+2014-05-23 14:59:11	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 14:59:11	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 14:59:11	--	Channel #code: 62 nicks (0 ops, 0 voices, 62 normals)
+2014-05-23 14:59:11	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 14:59:11	--	Mode #code [+v jasonramirez : active] by jasonramirez
+2014-05-23 14:59:11	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-23 14:59:11	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 14:59:11	--	Mode #code [+v draper : active] by draper
+2014-05-23 14:59:11	--	Mode #code [+v sharley : active] by sharley
+2014-05-23 14:59:11	--	Mode #code [+v christian : active] by christian
+2014-05-23 14:59:11	--	Mode #code [+v dgalarza : active] by dgalarza
+2014-05-23 14:59:11	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-23 14:59:11	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-23 14:59:11	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-23 14:59:11	--	Mode #code [+v iwz : active] by iwz
+2014-05-23 14:59:11	--	Mode #code [+v simon : active] by simon
+2014-05-23 14:59:11	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 14:59:11	--	Mode #code [+v harry : active] by harry
+2014-05-23 14:59:11	--	Mode #code [+v eric : active] by eric
+2014-05-23 14:59:11	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 14:59:11	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-23 14:59:11	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-23 14:59:11	--	Mode #code [+v justin : active] by justin
+2014-05-23 14:59:11	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-23 14:59:11	--	Mode #code [+v russo : active] by russo
+2014-05-23 14:59:11	--	Mode #code [+v brenda : active] by brenda
+2014-05-23 14:59:11	--	Mode #code [+v justin : active] by justin
+2014-05-23 14:59:19	--	Mode #code [+nt]
+2014-05-23 14:59:19	--	Channel created on Fri, 23 May 2014 14:59:19
+2014-05-23 15:59:46	--	irc: disconnected from server
+2014-05-23 15:59:57	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 15:59:57	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 15:59:57	--	Channel #code: 62 nicks (0 ops, 0 voices, 62 normals)
+2014-05-23 15:59:57	--	Mode #code [+v jasonramirez : active] by jasonramirez
+2014-05-23 15:59:57	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-23 15:59:57	--	Mode #code [+v draper : active] by draper
+2014-05-23 15:59:57	--	Mode #code [+v christian : active] by christian
+2014-05-23 15:59:57	--	Mode #code [+v dgalarza : active] by dgalarza
+2014-05-23 15:59:57	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-23 15:59:57	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-23 15:59:57	--	Mode #code [+v will : active] by will
+2014-05-23 15:59:57	--	Mode #code [+v simon : active] by simon
+2014-05-23 15:59:57	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 15:59:57	--	Mode #code [+v eric : active] by eric
+2014-05-23 15:59:57	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 15:59:57	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-23 15:59:57	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-23 15:59:57	--	Mode #code [+v justin : active] by justin
+2014-05-23 15:59:57	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-23 15:59:57	--	Mode #code [+v russo : active] by russo
+2014-05-23 15:59:57	--	Mode #code [+v brenda : active] by brenda
+2014-05-23 15:59:57	--	Mode #code [+v desi : active] by desi
+2014-05-23 15:59:57	--	Mode #code [+v justin : active] by justin
+2014-05-23 16:00:05	--	Mode #code [+nt]
+2014-05-23 16:00:05	--	Channel created on Fri, 23 May 2014 16:00:05
+2014-05-23 16:00:23	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 17:00:33	--	irc: disconnected from server
+2014-05-23 17:00:43	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 17:00:43	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 17:00:43	--	Channel #code: 62 nicks (0 ops, 0 voices, 62 normals)
+2014-05-23 17:00:43	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 17:00:43	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-23 17:00:43	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 17:00:43	--	Mode #code [+v sharley : active] by sharley
+2014-05-23 17:00:43	--	Mode #code [+v dgalarza : active] by dgalarza
+2014-05-23 17:00:43	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 17:00:43	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-23 17:00:43	--	Mode #code [+v simon : active] by simon
+2014-05-23 17:00:43	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 17:00:43	--	Mode #code [+v harry : active] by harry
+2014-05-23 17:00:43	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 17:00:43	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-23 17:00:43	--	Mode #code [+v justin : active] by justin
+2014-05-23 17:00:43	--	Mode #code [+v russo : active] by russo
+2014-05-23 17:00:43	--	Mode #code [+v desi : active] by desi
+2014-05-23 17:00:43	--	Mode #code [+v justin : active] by justin
+2014-05-23 17:00:51	--	Mode #code [+nt]
+2014-05-23 17:00:51	--	Channel created on Fri, 23 May 2014 17:00:50
+2014-05-23 17:17:47	--	irc: disconnected from server
+2014-05-23 17:17:58	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 17:17:58	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 17:17:58	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-23 17:17:58	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 17:17:58	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 17:17:58	--	Mode #code [+v dgalarza : active] by dgalarza
+2014-05-23 17:17:58	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 17:17:58	--	Mode #code [+v derek : active] by derek
+2014-05-23 17:17:58	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-23 17:17:58	--	Mode #code [+v simon : active] by simon
+2014-05-23 17:17:58	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 17:17:58	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 17:17:58	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-23 17:17:58	--	Mode #code [+v justin : active] by justin
+2014-05-23 17:17:58	--	Mode #code [+v russo : active] by russo
+2014-05-23 17:17:58	--	Mode #code [+v greg : active] by greg
+2014-05-23 17:17:58	--	Mode #code [+v justin : active] by justin
+2014-05-23 17:18:05	--	Mode #code [+nt]
+2014-05-23 17:18:05	--	Channel created on Fri, 23 May 2014 17:18:05
+2014-05-23 17:23:21	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-23 17:23:21	--	Mode #code [-v simon : away] by simon
+2014-05-23 17:23:21	--	Mode #code [-v russo : away] by russo
+2014-05-23 17:23:48	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-23 17:27:55	--	Mode #code [-v derek : away] by derek
+2014-05-23 17:59:38	--	irc: disconnected from server
+2014-05-23 17:59:48	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 17:59:48	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 17:59:48	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-23 17:59:48	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-23 17:59:48	--	Mode #code [+v markadams : active] by markadams
+2014-05-23 17:59:48	--	Mode #code [+v sharley : active] by sharley
+2014-05-23 17:59:48	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 17:59:48	--	Mode #code [+v phil : active] by phil
+2014-05-23 17:59:48	--	Mode #code [+v iwz : active] by iwz
+2014-05-23 17:59:48	--	Mode #code [+v harry : active] by harry
+2014-05-23 17:59:48	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 17:59:48	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-23 17:59:48	--	Mode #code [+v justin : active] by justin
+2014-05-23 17:59:48	--	Mode #code [+v ej : active] by ej
+2014-05-23 17:59:48	--	Mode #code [+v greg : active] by greg
+2014-05-23 17:59:48	--	Mode #code [+v justin : active] by justin
+2014-05-23 17:59:56	--	Mode #code [+nt]
+2014-05-23 17:59:56	--	Channel created on Fri, 23 May 2014 17:59:55
+2014-05-23 18:00:22	--	Mode #code [-v keithsmiley : away] by keithsmiley
+2014-05-23 19:00:24	--	irc: disconnected from server
+2014-05-23 19:00:34	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 19:00:34	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 19:00:34	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-23 19:00:34	--	Mode #code [+v croaky : active] by croaky
+2014-05-23 19:00:34	--	Mode #code [+v sharley : active] by sharley
+2014-05-23 19:00:34	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 19:00:34	--	Mode #code [+v mxie : active] by mxie
+2014-05-23 19:00:34	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 19:00:34	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 19:00:34	--	Mode #code [+v justin : active] by justin
+2014-05-23 19:00:34	--	Mode #code [+v justin : active] by justin
+2014-05-23 19:00:42	--	Mode #code [+nt]
+2014-05-23 19:00:42	--	Channel created on Fri, 23 May 2014 19:00:41
+2014-05-23 19:35:36	--	irc: disconnected from server
+2014-05-23 19:35:47	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-23 19:35:47	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-23 19:35:47	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-23 19:35:47	--	Mode #code [+v sharley : active] by sharley
+2014-05-23 19:35:47	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-23 19:35:47	--	Mode #code [+v phil : active] by phil
+2014-05-23 19:35:47	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-23 19:35:47	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-23 19:35:47	--	Mode #code [+v justin : active] by justin
+2014-05-23 19:35:47	--	Mode #code [+v desi : active] by desi
+2014-05-23 19:35:47	--	Mode #code [+v greg : active] by greg
+2014-05-23 19:35:47	--	Mode #code [+v justin : active] by justin
+2014-05-23 19:35:54	--	Mode #code [+nt]
+2014-05-23 19:35:54	--	Channel created on Fri, 23 May 2014 19:35:54
+2014-05-23 19:36:09	--	Mode #code [-v phil : away] by phil
+2014-05-23 22:36:49	--	irc: disconnected from server
+2014-05-24 22:16:49	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-24 22:16:49	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-24 22:16:49	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-24 22:16:49	--	Mode #code [+v mxie : active] by mxie
+2014-05-24 22:16:49	--	Mode #code [+v justin : active] by justin
+2014-05-24 22:16:49	--	Mode #code [+v justin : active] by justin
+2014-05-24 22:16:57	--	Mode #code [+nt]
+2014-05-24 22:16:57	--	Channel created on Sat, 24 May 2014 22:16:52
+2014-05-24 22:28:10	--	Mode #code [-v mxie : away] by mxie
+2014-05-24 22:34:22	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-24 22:37:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-25 15:15:12	--	irc: disconnected from server
+2014-05-25 15:16:23	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-25 15:16:23	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-25 15:16:23	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-25 15:16:23	--	Mode #code [+v melanie : active] by melanie
+2014-05-25 15:16:23	--	Mode #code [+v justin : active] by justin
+2014-05-25 15:16:25	--	Mode #code [-v melanie : away] by melanie
+2014-05-25 15:16:31	--	Mode #code [+nt]
+2014-05-25 15:16:31	--	Channel created on Sun, 25 May 2014 15:16:28
+2014-05-25 15:48:06	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-25 15:50:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-25 15:54:16	--	Mode #code [+v iwz : active] by iwz
+2014-05-25 15:56:22	--	Mode #code [-v iwz : away] by iwz
+2014-05-25 16:01:20	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-25 16:10:28	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-25 16:19:28	--	Mode #code [+v melanie : active] by melanie
+2014-05-25 16:19:28	--	Mode #code [-v melanie : away] by melanie
+2014-05-25 16:48:22	--	Mode #code [+v iwz : active] by iwz
+2014-05-25 16:48:56	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-25 16:51:22	--	Mode #code [-v iwz : away] by iwz
+2014-05-25 16:51:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-25 16:52:38	--	Mode #code [+v desi : active] by desi
+2014-05-25 17:02:04	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-25 17:04:22	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-25 17:11:17	--	Mode #code [+v sharley : active] by sharley
+2014-05-25 17:14:22	--	Mode #code [-v sharley : away] by sharley
+2014-05-25 17:15:34	--	Mode #code [+v melanie : active] by melanie
+2014-05-25 17:18:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-25 17:23:22	--	Mode #code [-v desi : away] by desi
+2014-05-25 17:40:35	--	Mode #code [+v desi : active] by desi
+2014-05-25 17:42:28	--	Mode #code [+v iwz : active] by iwz
+2014-05-25 17:45:22	--	Mode #code [-v iwz : away] by iwz
+2014-05-25 17:49:45	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-25 17:52:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-25 18:02:53	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-25 18:05:22	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-25 18:11:22	--	Mode #code [-v desi : away] by desi
+2014-05-25 18:11:59	--	Mode #code [+v sharley : active] by sharley
+2014-05-25 18:14:22	--	Mode #code [-v sharley : away] by sharley
+2014-05-25 18:16:20	--	Mode #code [+v melanie : active] by melanie
+2014-05-25 18:19:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-25 18:35:50	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-25 18:35:50	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-25 18:35:50	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-25 18:35:50	--	Mode #code [+v justin : active] by justin
+2014-05-25 18:35:54	--	Mode #code [+nt]
+2014-05-25 18:35:54	--	Channel created on Sun, 25 May 2014 18:35:54
+2014-05-25 18:36:32	--	Mode #code [+v iwz : active] by iwz
+2014-05-25 18:39:15	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-25 18:39:15	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-25 18:39:15	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-25 18:39:15	--	Mode #code [+v iwz : active] by iwz
+2014-05-25 18:39:15	--	Mode #code [+v justin : active] by justin
+2014-05-25 18:39:19	--	Mode #code [+nt]
+2014-05-25 18:39:19	--	Channel created on Sun, 25 May 2014 18:39:19
+2014-05-25 18:39:22	--	Mode #code [-v iwz : away] by iwz
+2014-05-25 18:40:36	--	Mode #code [+v desi : active] by desi
+2014-05-25 18:51:57	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-25 18:51:57	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-25 18:51:57	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-25 18:51:57	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-25 18:51:57	--	Mode #code [+v justin : active] by justin
+2014-05-25 18:52:01	--	Mode #code [+nt]
+2014-05-25 18:52:01	--	Channel created on Sun, 25 May 2014 18:52:01
+2014-05-25 18:53:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-25 18:58:32	--	Mode #code [+v desi : active] by desi
+2014-05-25 19:11:25	--	Mode #code [-v desi : away] by desi
+2014-05-25 19:11:25	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-25 19:11:25	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-25 19:12:44	--	Mode #code [+v sharley : active] by sharley
+2014-05-25 19:15:21	--	Mode #code [-v sharley : away] by sharley
+2014-05-25 19:17:04	--	Mode #code [+v melanie : active] by melanie
+2014-05-25 19:19:06	--	Mode #code [+v desi : active] by desi
+2014-05-25 19:19:21	--	Mode #code [-v melanie : away] by melanie
+2014-05-25 22:48:26	--	irc: disconnected from server
+2014-05-25 22:49:01	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-25 22:49:01	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-25 22:49:01	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-25 22:49:01	--	Mode #code [+v justin : active] by justin
+2014-05-25 22:49:09	--	Mode #code [+nt]
+2014-05-25 22:49:09	--	Channel created on Sun, 25 May 2014 22:49:08
+2014-05-25 22:49:12	--	Mode #code [+v desi : active] by desi
+2014-05-25 22:50:12	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-25 22:51:23	--	Mode #code [-v desi : away] by desi
+2014-05-25 22:52:23	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-25 22:53:52	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-25 22:56:23	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-25 23:06:52	--	Mode #code [+v iwz : active] by iwz
+2014-05-25 23:09:22	--	Mode #code [-v iwz : away] by iwz
+2014-05-25 23:15:48	--	Mode #code [+v sharley : active] by sharley
+2014-05-25 23:18:22	--	Mode #code [-v sharley : away] by sharley
+2014-05-25 23:19:09	--	Mode #code [+v desi : active] by desi
+2014-05-25 23:20:06	--	Mode #code [+v melanie : active] by melanie
+2014-05-25 23:21:22	--	Mode #code [-v desi : away] by desi
+2014-05-25 23:22:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-25 23:31:43	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-25 23:34:22	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-25 23:54:41	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-25 23:57:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 00:00:59	--	Mode #code [+v iwz : active] by iwz
+2014-05-26 00:03:22	--	Mode #code [-v iwz : away] by iwz
+2014-05-26 00:49:59	--	irc: disconnected from server
+2014-05-26 00:50:10	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 00:50:10	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 00:50:10	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 00:50:10	--	Mode #code [+v justin : active] by justin
+2014-05-26 00:50:17	--	Mode #code [+nt]
+2014-05-26 00:50:17	--	Channel created on Mon, 26 May 2014 00:50:17
+2014-05-26 01:49:35	--	irc: disconnected from server
+2014-05-26 01:49:45	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 01:49:45	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 01:49:45	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 01:49:45	--	Mode #code [+v iwz : active] by iwz
+2014-05-26 01:49:45	--	Mode #code [+v justin : active] by justin
+2014-05-26 01:49:53	--	Mode #code [+nt]
+2014-05-26 01:49:53	--	Channel created on Mon, 26 May 2014 01:49:53
+2014-05-26 02:50:20	--	irc: disconnected from server
+2014-05-26 02:50:30	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 02:50:30	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 02:50:30	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 02:50:30	--	Mode #code [+v adam : active] by adam
+2014-05-26 02:50:30	--	Mode #code [+v justin : active] by justin
+2014-05-26 02:50:38	--	Mode #code [+nt]
+2014-05-26 02:50:38	--	Channel created on Mon, 26 May 2014 02:50:38
+2014-05-26 03:14:56	--	irc: disconnected from server
+2014-05-26 03:15:06	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 03:15:06	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 03:15:06	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 03:15:06	--	Mode #code [+v reda : active] by reda
+2014-05-26 03:15:06	--	Mode #code [+v eric : active] by eric
+2014-05-26 03:15:06	--	Mode #code [+v adam : active] by adam
+2014-05-26 03:15:06	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 03:15:06	--	Mode #code [+v justin : active] by justin
+2014-05-26 03:15:14	--	Mode #code [+nt]
+2014-05-26 03:15:14	--	Channel created on Mon, 26 May 2014 03:15:14
+2014-05-26 04:15:41	--	irc: disconnected from server
+2014-05-26 04:15:51	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 04:15:51	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 04:15:51	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 04:15:51	--	Mode #code [+v reda : active] by reda
+2014-05-26 04:15:51	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-26 04:15:51	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 04:15:51	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 04:15:51	--	Mode #code [+v adam : active] by adam
+2014-05-26 04:15:51	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 04:15:51	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-26 04:15:51	--	Mode #code [+v calleerlandsson : active] by calleerlandsson
+2014-05-26 04:15:51	--	Mode #code [+v justin : active] by justin
+2014-05-26 04:15:59	--	Mode #code [+nt]
+2014-05-26 04:15:59	--	Channel created on Mon, 26 May 2014 04:15:59
+2014-05-26 05:16:26	--	irc: disconnected from server
+2014-05-26 05:16:36	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 05:16:36	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 05:16:36	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 05:16:36	--	Mode #code [+v reda : active] by reda
+2014-05-26 05:16:36	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 05:16:36	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 05:16:36	--	Mode #code [+v adam : active] by adam
+2014-05-26 05:16:36	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 05:16:36	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-26 05:16:36	--	Mode #code [+v calleerlandsson : active] by calleerlandsson
+2014-05-26 05:16:36	--	Mode #code [+v justin : active] by justin
+2014-05-26 05:16:44	--	Mode #code [+nt]
+2014-05-26 05:16:44	--	Channel created on Mon, 26 May 2014 05:16:43
+2014-05-26 06:17:10	--	irc: disconnected from server
+2014-05-26 06:17:20	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 06:17:20	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 06:17:20	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 06:17:20	--	Mode #code [+v reda : active] by reda
+2014-05-26 06:17:20	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 06:17:20	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 06:17:20	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 06:17:20	--	Mode #code [+v justin : active] by justin
+2014-05-26 06:17:28	--	Mode #code [+nt]
+2014-05-26 06:17:28	--	Channel created on Mon, 26 May 2014 06:17:27
+2014-05-26 07:17:54	--	irc: disconnected from server
+2014-05-26 07:18:04	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 07:18:04	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 07:18:04	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 07:18:04	--	Mode #code [+v reda : active] by reda
+2014-05-26 07:18:04	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-26 07:18:04	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 07:18:04	--	Mode #code [+v adam : active] by adam
+2014-05-26 07:18:04	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 07:18:04	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-26 07:18:04	--	Mode #code [+v justin : active] by justin
+2014-05-26 07:18:12	--	Mode #code [+nt]
+2014-05-26 07:18:12	--	Channel created on Mon, 26 May 2014 07:18:11
+2014-05-26 08:18:39	--	irc: disconnected from server
+2014-05-26 08:18:49	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 08:18:49	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 08:18:49	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 08:18:49	--	Mode #code [+v draper : active] by draper
+2014-05-26 08:18:49	--	Mode #code [+v reda : active] by reda
+2014-05-26 08:18:49	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-26 08:18:49	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 08:18:49	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 08:18:49	--	Mode #code [+v adam : active] by adam
+2014-05-26 08:18:49	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 08:18:49	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-26 08:18:49	--	Mode #code [+v justin : active] by justin
+2014-05-26 08:18:57	--	Mode #code [+nt]
+2014-05-26 08:18:57	--	Channel created on Mon, 26 May 2014 08:18:57
+2014-05-26 08:19:10	--	Mode #code [+v desi : active] by desi
+2014-05-26 09:19:24	--	irc: disconnected from server
+2014-05-26 09:19:35	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 09:19:35	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 09:19:35	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 09:19:35	--	Mode #code [+v reda : active] by reda
+2014-05-26 09:19:35	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 09:19:35	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 09:19:35	--	Mode #code [+v adam : active] by adam
+2014-05-26 09:19:35	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 09:19:35	--	Mode #code [+v desi : active] by desi
+2014-05-26 09:19:35	--	Mode #code [+v justin : active] by justin
+2014-05-26 09:19:42	--	Mode #code [+nt]
+2014-05-26 09:19:42	--	Channel created on Mon, 26 May 2014 09:19:42
+2014-05-26 10:20:09	--	irc: disconnected from server
+2014-05-26 10:20:19	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 10:20:19	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 10:20:19	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 10:20:19	--	Mode #code [+v draper : active] by draper
+2014-05-26 10:20:19	--	Mode #code [+v reda : active] by reda
+2014-05-26 10:20:19	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-26 10:20:19	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-26 10:20:19	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 10:20:19	--	Mode #code [+v adam : active] by adam
+2014-05-26 10:20:19	--	Mode #code [+v magnus : active] by magnus
+2014-05-26 10:20:19	--	Mode #code [+v desi : active] by desi
+2014-05-26 10:20:19	--	Mode #code [+v justin : active] by justin
+2014-05-26 10:20:27	--	Mode #code [+nt]
+2014-05-26 10:20:27	--	Channel created on Mon, 26 May 2014 10:20:27
+2014-05-26 11:20:54	--	irc: disconnected from server
+2014-05-26 11:21:04	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 11:21:04	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 11:21:04	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 11:21:04	--	Mode #code [+v sharley : active] by sharley
+2014-05-26 11:21:04	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-26 11:21:04	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-26 11:21:04	--	Mode #code [+v desi : active] by desi
+2014-05-26 11:21:04	--	Mode #code [+v justin : active] by justin
+2014-05-26 11:21:12	--	Mode #code [+nt]
+2014-05-26 11:21:12	--	Channel created on Mon, 26 May 2014 11:21:12
+2014-05-26 11:21:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 12:21:38	--	irc: disconnected from server
+2014-05-26 12:21:48	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 12:21:48	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 12:21:48	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 12:21:48	--	Mode #code [+v justin : active] by justin
+2014-05-26 12:21:56	--	Mode #code [+nt]
+2014-05-26 12:21:56	--	Channel created on Mon, 26 May 2014 12:21:55
+2014-05-26 13:22:23	--	irc: disconnected from server
+2014-05-26 13:22:33	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 13:22:33	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 13:22:33	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 13:22:33	--	Mode #code [+v justin : active] by justin
+2014-05-26 13:22:41	--	Mode #code [+nt]
+2014-05-26 13:22:41	--	Channel created on Mon, 26 May 2014 13:22:40
+2014-05-26 14:11:45	--	irc: disconnected from server
+2014-05-26 14:12:13	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 14:12:13	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 14:12:13	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 14:12:13	--	Mode #code [+v justin : active] by justin
+2014-05-26 14:12:21	--	Mode #code [+nt]
+2014-05-26 14:12:21	--	Channel created on Mon, 26 May 2014 14:12:21
+2014-05-26 14:13:11	--	Mode #code [+v desi : active] by desi
+2014-05-26 14:15:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 14:25:03	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-26 14:27:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 14:29:36	--	Mode #code [+v melanie : active] by melanie
+2014-05-26 14:32:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-26 15:19:39	--	irc: disconnected from server
+2014-05-26 15:19:49	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 15:19:49	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 15:19:49	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 15:19:49	--	Mode #code [+v will : active] by will
+2014-05-26 15:19:49	--	Mode #code [+v justin : active] by justin
+2014-05-26 15:19:57	--	Mode #code [+nt]
+2014-05-26 15:19:57	--	Channel created on Mon, 26 May 2014 15:19:56
+2014-05-26 15:25:53	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-26 15:27:53	--	Mode #code [+v croaky : active] by croaky
+2014-05-26 15:28:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 15:30:22	--	Mode #code [+v melanie : active] by melanie
+2014-05-26 15:33:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-26 15:40:23	--	Mode #code [-v will : away] by will
+2014-05-26 15:40:38	--	Mode #code [+v will : active] by will
+2014-05-26 15:49:10	--	Mode #code [+v desi : active] by desi
+2014-05-26 15:49:25	--	Mode #code [-v will : away] by will
+2014-05-26 15:51:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 20:27:19	--	irc: disconnected from server
+2014-05-26 20:27:29	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-26 20:27:29	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-26 20:27:29	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-26 20:27:29	--	Mode #code [+v justin : active] by justin
+2014-05-26 20:27:37	--	Mode #code [+nt]
+2014-05-26 20:27:37	--	Channel created on Mon, 26 May 2014 20:27:37
+2014-05-26 20:28:36	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-26 20:30:00	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-26 20:31:23	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-26 20:32:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 20:34:05	--	Mode #code [+v melanie : active] by melanie
+2014-05-26 20:36:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-26 20:50:43	--	Mode #code [+v desi : active] by desi
+2014-05-26 20:53:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 21:19:09	--	Mode #code [+v desi : active] by desi
+2014-05-26 21:21:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 21:22:19	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-26 21:22:40	--	Mode #code [-v cpytel : away] by cpytel
+2014-05-26 21:28:59	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-26 21:30:49	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-26 21:31:22	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-26 21:33:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 21:34:51	--	Mode #code [+v melanie : active] by melanie
+2014-05-26 21:37:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-26 22:16:14	--	Mode #code [+v draper : active] by draper
+2014-05-26 22:19:07	--	Mode #code [+v desi : active] by desi
+2014-05-26 22:19:22	--	Mode #code [-v draper : away] by draper
+2014-05-26 22:20:54	--	Mode #code [-v desi : away] by desi
+2014-05-26 22:21:02	--	Mode #code [+v desi : active] by desi
+2014-05-26 22:23:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 22:31:40	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-26 22:34:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 22:35:34	--	Mode #code [+v melanie : active] by melanie
+2014-05-26 22:38:22	--	Mode #code [-v melanie : away] by melanie
+2014-05-26 22:39:23	--	Mode #code [+v draper : active] by draper
+2014-05-26 23:08:22	--	Mode #code [-v draper : away] by draper
+2014-05-26 23:19:07	--	Mode #code [+v desi : active] by desi
+2014-05-26 23:21:22	--	Mode #code [-v desi : away] by desi
+2014-05-26 23:29:52	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-26 23:32:22	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-26 23:32:28	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-26 23:35:22	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-26 23:36:19	--	Mode #code [+v melanie : active] by melanie
+2014-05-26 23:46:28	--	Mode #code [-v melanie : away] by melanie
+2014-05-27 00:19:17	--	irc: disconnected from server
+2014-05-27 00:19:28	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 00:19:28	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 00:19:28	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 00:19:28	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-27 00:19:28	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-27 00:19:28	--	Mode #code [+v calleerlandsson : active] by calleerlandsson
+2014-05-27 00:19:28	--	Mode #code [+v desi : active] by desi
+2014-05-27 00:19:28	--	Mode #code [+v justin : active] by justin
+2014-05-27 00:19:36	--	Mode #code [+nt]
+2014-05-27 00:19:36	--	Channel created on Tue, 27 May 2014 00:19:36
+2014-05-27 00:21:35	--	Mode #code [-v desi : away] by desi
+2014-05-27 00:30:05	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 00:32:03	--	Mode #code [-v gfontenot : away] by gfontenot
+2014-05-27 00:32:15	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-27 00:32:35	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-27 00:33:23	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 00:35:35	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 00:37:07	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 00:39:35	--	Mode #code [-v melanie : away] by melanie
+2014-05-27 01:15:16	--	irc: disconnected from server
+2014-05-27 01:15:26	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 01:15:26	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 01:15:26	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 01:15:26	--	Mode #code [+v justin : active] by justin
+2014-05-27 01:15:34	--	Mode #code [+nt]
+2014-05-27 01:15:34	--	Channel created on Tue, 27 May 2014 01:15:33
+2014-05-27 01:26:26	--	Mode #code [+v desi : active] by desi
+2014-05-27 01:26:26	--	Mode #code [-v desi : away] by desi
+2014-05-27 01:34:09	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 01:36:35	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 01:37:51	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 01:40:35	--	Mode #code [-v melanie : away] by melanie
+2014-05-27 02:15:59	--	irc: disconnected from server
+2014-05-27 02:16:09	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 02:16:09	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 02:16:09	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 02:16:09	--	Mode #code [+v justin : active] by justin
+2014-05-27 02:16:17	--	Mode #code [+nt]
+2014-05-27 02:16:17	--	Channel created on Tue, 27 May 2014 02:16:17
+2014-05-27 03:16:45	--	irc: disconnected from server
+2014-05-27 03:16:56	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 03:16:56	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 03:16:56	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 03:16:56	--	Mode #code [+v justin : active] by justin
+2014-05-27 03:17:04	--	Mode #code [+nt]
+2014-05-27 03:17:04	--	Channel created on Tue, 27 May 2014 03:17:04
+2014-05-27 03:17:20	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 04:15:41	--	irc: disconnected from server
+2014-05-27 04:15:51	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 04:15:51	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 04:15:51	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 04:15:51	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 04:15:51	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 04:15:51	--	Mode #code [+v adam : active] by adam
+2014-05-27 04:15:51	--	Mode #code [+v justin : active] by justin
+2014-05-27 04:15:59	--	Mode #code [+nt]
+2014-05-27 04:15:59	--	Channel created on Tue, 27 May 2014 04:15:59
+2014-05-27 05:16:26	--	irc: disconnected from server
+2014-05-27 05:16:36	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 05:16:36	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 05:16:36	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 05:16:36	--	Mode #code [+v reda : active] by reda
+2014-05-27 05:16:36	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 05:16:36	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 05:16:36	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 05:16:36	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-27 05:16:36	--	Mode #code [+v justin : active] by justin
+2014-05-27 05:16:44	--	Mode #code [+nt]
+2014-05-27 05:16:44	--	Channel created on Tue, 27 May 2014 05:16:44
+2014-05-27 06:17:11	--	irc: disconnected from server
+2014-05-27 06:17:22	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 06:17:22	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 06:17:22	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 06:17:22	--	Mode #code [+v reda : active] by reda
+2014-05-27 06:17:22	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 06:17:22	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 06:17:22	--	Mode #code [+v justin : active] by justin
+2014-05-27 06:17:29	--	Mode #code [+nt]
+2014-05-27 06:17:29	--	Channel created on Tue, 27 May 2014 06:17:29
+2014-05-27 07:17:55	--	irc: disconnected from server
+2014-05-27 07:18:05	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 07:18:05	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 07:18:05	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 07:18:05	--	Mode #code [+v reda : active] by reda
+2014-05-27 07:18:05	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 07:18:05	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 07:18:05	--	Mode #code [+v justin : active] by justin
+2014-05-27 07:18:13	--	Mode #code [+nt]
+2014-05-27 07:18:13	--	Channel created on Tue, 27 May 2014 07:18:13
+2014-05-27 08:18:39	--	irc: disconnected from server
+2014-05-27 08:18:49	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 08:18:49	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 08:18:49	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 08:18:49	--	Mode #code [+v reda : active] by reda
+2014-05-27 08:18:49	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-27 08:18:49	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 08:18:49	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 08:18:49	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 08:18:49	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-27 08:18:49	--	Mode #code [+v justin : active] by justin
+2014-05-27 08:18:57	--	Mode #code [+nt]
+2014-05-27 08:18:57	--	Channel created on Tue, 27 May 2014 08:18:57
+2014-05-27 09:27:56	--	irc: disconnected from server
+2014-05-27 09:28:06	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 09:28:06	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 09:28:06	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 09:28:06	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-27 09:28:06	--	Mode #code [+v jason : active] by jason
+2014-05-27 09:28:06	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-27 09:28:06	--	Mode #code [+v draper : active] by draper
+2014-05-27 09:28:06	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-27 09:28:06	--	Mode #code [+v christian : active] by christian
+2014-05-27 09:28:06	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-27 09:28:06	--	Mode #code [+v reda : active] by reda
+2014-05-27 09:28:06	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-27 09:28:06	--	Mode #code [+v blake : active] by blake
+2014-05-27 09:28:06	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 09:28:06	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-27 09:28:06	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 09:28:06	--	Mode #code [+v iwz : active] by iwz
+2014-05-27 09:28:06	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 09:28:06	--	Mode #code [+v adam : active] by adam
+2014-05-27 09:28:06	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 09:28:06	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-27 09:28:06	--	Mode #code [+v justin : active] by justin
+2014-05-27 09:28:14	--	Mode #code [+nt]
+2014-05-27 09:28:14	--	Channel created on Tue, 27 May 2014 09:28:14
+2014-05-27 09:28:22	--	Mode #code [+v chris : active] by chris
+2014-05-27 09:31:35	--	Mode #code [-v adam : away] by adam
+2014-05-27 09:32:04	--	Mode #code [+v joelq : active] by joelq
+2014-05-27 09:32:54	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 09:33:39	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 09:33:45	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 09:33:57	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 09:34:16	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 09:34:35	--	Mode #code [-v pbrisbin : away] by pbrisbin
+2014-05-27 09:34:49	--	christian is now known as christianreuter
+2014-05-27 09:34:55	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 09:35:07	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 09:35:24	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 09:36:17	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 09:36:35	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-27 09:36:42	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 09:37:01	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-27 09:37:42	--	Mode #code [+v will : active] by will
+2014-05-27 09:39:09	--	Mode #code [-v will : away] by will
+2014-05-27 09:39:24	--	Mode #code [-v jacknutting : away] by jacknutting
+2014-05-27 09:40:39	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 09:40:50	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 09:40:50	--	Mode #code [+v trevor : active] by trevor
+2014-05-27 09:43:06	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 09:44:38	--	Mode #code [+v trace : active] by trace
+2014-05-27 09:45:36	--	Mode #code [-v seandoyle : away] by seandoyle
+2014-05-27 09:45:56	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-27 09:46:35	--	Mode #code [-v mxie : away] by mxie
+2014-05-27 09:47:50	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 09:48:05	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 09:48:38	--	Mode #code [+v derek : active] by derek
+2014-05-27 09:50:04	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 09:50:15	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 09:52:12	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 09:52:12	+mxie	@pr - Can I get a review of this small PR? https://github.com/Koneksa/Koneksa/pull/55 
+2014-05-27 09:54:03	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 09:56:45	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 09:56:45	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 09:56:45	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 09:56:45	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-27 09:56:45	--	Mode #code [+v jason : active] by jason
+2014-05-27 09:56:45	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-27 09:56:45	--	Mode #code [+v draper : active] by draper
+2014-05-27 09:56:45	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-27 09:56:45	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-27 09:56:45	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-27 09:56:45	--	Mode #code [+v reda : active] by reda
+2014-05-27 09:56:45	--	Mode #code [+v trevor : active] by trevor
+2014-05-27 09:56:45	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-27 09:56:45	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 09:56:45	--	Mode #code [+v blake : active] by blake
+2014-05-27 09:56:45	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 09:56:45	--	Mode #code [+v derek : active] by derek
+2014-05-27 09:56:45	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 09:56:45	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 09:56:45	--	Mode #code [+v iwz : active] by iwz
+2014-05-27 09:56:45	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 09:56:45	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 09:56:45	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 09:56:45	--	Mode #code [+v chris : active] by chris
+2014-05-27 09:56:45	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 09:56:45	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 09:56:45	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 09:56:45	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-27 09:56:45	--	Mode #code [+v joelq : active] by joelq
+2014-05-27 09:56:45	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 09:56:45	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 09:56:45	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-27 09:56:45	--	Mode #code [+v trace : active] by trace
+2014-05-27 09:56:45	--	Mode #code [+v justin : active] by justin
+2014-05-27 09:56:50	--	Mode #code [+nt]
+2014-05-27 09:56:50	--	Channel created on Tue, 27 May 2014 09:56:50
+2014-05-27 09:57:02	+jclayton	@pr //http://github.com/thoughtbot/team/pull/302  /cc @mjankowski #pr #babies #dropdowns
+2014-05-27 09:57:27	+mike-burns	Aha!
+2014-05-27 09:57:36	--	trevor is now known as trevororeilly
+2014-05-27 09:57:45	+jclayton	You saw it too, huh mike-burns
+2014-05-27 09:57:55	+jclayton	noticed it last night
+2014-05-27 09:57:56	+mike-burns	I couldn't figure out what was causing it.
+2014-05-27 09:58:03	+jclayton	caching!
+2014-05-27 09:58:11	+mjankowski	I didnt even know that was cached
+2014-05-27 09:58:11	+mike-burns	Makes total sense.
+2014-05-27 09:58:13	+mjankowski	was that recently added
+2014-05-27 09:58:17	+mike-burns	Yeah, last night.
+2014-05-27 09:58:21	+jclayton	no - I'd added it a while back
+2014-05-27 09:58:22	--	Mode #code [+v harry : active] by harry
+2014-05-27 09:58:24	+mike-burns	Oh.
+2014-05-27 09:58:28	+jclayton	but Dan broke it recently
+2014-05-27 09:58:40	+mike-burns	Huh, so you did.
+2014-05-27 09:58:54	+jclayton	https://github.com/thoughtbot/team/commit/cd06e372#diff-2b9444c116f8f723a4ab11add3512c80L2 
+2014-05-27 10:00:57	--	irc: disconnected from server
+2014-05-27 10:01:07	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 10:01:07	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 10:01:07	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 10:01:07	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-27 10:01:07	--	Mode #code [+v jason : active] by jason
+2014-05-27 10:01:07	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-27 10:01:07	--	Mode #code [+v draper : active] by draper
+2014-05-27 10:01:07	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-27 10:01:07	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-27 10:01:07	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-27 10:01:07	--	Mode #code [+v reda : active] by reda
+2014-05-27 10:01:07	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-27 10:01:07	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-27 10:01:07	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 10:01:07	--	Mode #code [+v blake : active] by blake
+2014-05-27 10:01:07	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 10:01:07	--	Mode #code [+v derek : active] by derek
+2014-05-27 10:01:07	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 10:01:07	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 10:01:07	--	Mode #code [+v iwz : active] by iwz
+2014-05-27 10:01:07	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 10:01:07	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 10:01:07	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 10:01:07	--	Mode #code [+v chris : active] by chris
+2014-05-27 10:01:07	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 10:01:07	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 10:01:07	--	Mode #code [+v harry : active] by harry
+2014-05-27 10:01:07	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 10:01:07	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-27 10:01:07	--	Mode #code [+v joelq : active] by joelq
+2014-05-27 10:01:07	--	Mode #code [+v justin : active] by justin
+2014-05-27 10:01:07	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 10:01:07	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-27 10:01:07	--	Mode #code [+v trace : active] by trace
+2014-05-27 10:01:07	--	Mode #code [+v justin : active] by justin
+2014-05-27 10:01:15	--	Mode #code [+nt]
+2014-05-27 10:01:15	--	Channel created on Tue, 27 May 2014 10:01:15
+2014-05-27 10:02:15	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 10:02:26	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 10:02:49	--	Mode #code [+v ej : active] by ej
+2014-05-27 10:05:06	--	irc: disconnected from server
+2014-05-27 10:05:16	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 10:05:16	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 10:05:16	--	Channel #code: 63 nicks (0 ops, 0 voices, 63 normals)
+2014-05-27 10:05:16	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-27 10:05:16	--	Mode #code [+v jason : active] by jason
+2014-05-27 10:05:16	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-27 10:05:16	--	Mode #code [+v draper : active] by draper
+2014-05-27 10:05:16	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-27 10:05:16	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-27 10:05:16	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-27 10:05:16	--	Mode #code [+v reda : active] by reda
+2014-05-27 10:05:16	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-27 10:05:16	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-27 10:05:16	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 10:05:16	--	Mode #code [+v blake : active] by blake
+2014-05-27 10:05:16	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 10:05:16	--	Mode #code [+v derek : active] by derek
+2014-05-27 10:05:16	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 10:05:16	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 10:05:16	--	Mode #code [+v iwz : active] by iwz
+2014-05-27 10:05:16	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 10:05:16	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-27 10:05:16	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-27 10:05:16	--	Mode #code [+v chris : active] by chris
+2014-05-27 10:05:16	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 10:05:16	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 10:05:16	--	Mode #code [+v harry : active] by harry
+2014-05-27 10:05:16	--	Mode #code [+v magnus : active] by magnus
+2014-05-27 10:05:16	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-27 10:05:16	--	Mode #code [+v joelq : active] by joelq
+2014-05-27 10:05:16	--	Mode #code [+v justin : active] by justin
+2014-05-27 10:05:16	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 10:05:16	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-27 10:05:16	--	Mode #code [+v trace : active] by trace
+2014-05-27 10:05:16	--	Mode #code [+v ej : active] by ej
+2014-05-27 10:05:16	--	Mode #code [+v justin : active] by justin
+2014-05-27 10:05:24	--	Mode #code [+nt]
+2014-05-27 10:05:24	--	Channel created on Tue, 27 May 2014 10:05:23
+2014-05-27 10:06:14	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 10:07:04	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 15:31:57	--	irc: disconnected from server
+2014-05-27 15:32:27	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 15:32:27	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 15:32:27	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 15:32:27	--	Mode #code [+v croaky : active] by croaky
+2014-05-27 15:32:27	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-27 15:32:27	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 15:32:27	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-27 15:32:27	--	Mode #code [+v draper : active] by draper
+2014-05-27 15:32:27	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 15:32:27	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-27 15:32:27	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-27 15:32:27	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-27 15:32:27	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-27 15:32:27	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 15:32:27	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-27 15:32:27	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 15:32:27	--	Mode #code [+v blake : active] by blake
+2014-05-27 15:32:27	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 15:32:27	--	Mode #code [+v derek : active] by derek
+2014-05-27 15:32:27	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 15:32:27	--	Mode #code [+v iwz : active] by iwz
+2014-05-27 15:32:27	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 15:32:27	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-27 15:32:27	--	Mode #code [+v chris : active] by chris
+2014-05-27 15:32:27	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 15:32:27	--	Mode #code [+v harry : active] by harry
+2014-05-27 15:32:27	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 15:32:27	--	Mode #code [+v joelq : active] by joelq
+2014-05-27 15:32:27	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 15:32:27	--	Mode #code [+v trace : active] by trace
+2014-05-27 15:32:27	--	Mode #code [+v russo : active] by russo
+2014-05-27 15:32:27	--	Mode #code [+v desi : active] by desi
+2014-05-27 15:32:27	--	Mode #code [+v ej : active] by ej
+2014-05-27 15:32:27	--	Mode #code [+v ben : active] by ben
+2014-05-27 15:32:27	--	Mode #code [+v tony : active] by tony
+2014-05-27 15:32:27	--	Mode #code [+v justin : active] by justin
+2014-05-27 15:32:35	--	Mode #code [+nt]
+2014-05-27 15:32:35	--	Channel created on Tue, 27 May 2014 15:32:35
+2014-05-27 15:33:06	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-27 15:33:35	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-27 15:33:36	--	Mode #code [-v ej : away] by ej
+2014-05-27 15:34:36	--	Mode #code [-v tony : away] by tony
+2014-05-27 15:35:49	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-27 15:37:35	--	Mode #code [-v jferris : away] by jferris
+2014-05-27 15:37:35	--	Mode #code [-v joshuaogle : away] by joshuaogle
+2014-05-27 15:38:35	--	Mode #code [-v seantheprogrammer : away] by seantheprogrammer
+2014-05-27 15:39:35	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-27 15:39:35	--	Mode #code [-v croaky : away] by croaky
+2014-05-27 15:40:42	--	Mode #code [+v tony : active] by tony
+2014-05-27 15:40:42	--	Mode #code [+v phil : active] by phil
+2014-05-27 15:40:42	--	Mode #code [+v ej : active] by ej
+2014-05-27 15:40:42	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 15:40:42	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-27 15:40:42	--	Mode #code [+v markadams : active] by markadams
+2014-05-27 15:40:42	--	Mode #code [+v simon : active] by simon
+2014-05-27 15:40:42	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 15:40:42	--	Mode #code [+v greg : active] by greg
+2014-05-27 15:40:42	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 15:42:15	--	Mode #code [-v iwz : away] by iwz
+2014-05-27 15:43:31	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 15:44:35	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-27 15:48:31	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-27 15:48:35	--	Mode #code [-v sharley : away] by sharley
+2014-05-27 15:48:47	--	Mode #code [-v melanie : away] by melanie
+2014-05-27 15:49:02	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 15:49:40	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-27 15:49:55	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 15:49:58	+jessieay	Hello! I am with Eric in NYC and we are running into an issue with clearance. We are overriding a named route from Clearance (sign_in) and rails is complaining about named routes being defined more than once. Does anyone know how to override named routes in Rails?
+2014-05-27 15:50:26	+seandoyle	@jessieay: you might have to override the path with `as: nil`
+2014-05-27 15:50:50	+gabebw	Yes, you do
+2014-05-27 15:51:08	+seandoyle	@jessieay: https://github.com/thoughtbot/clearance/issues/283 
+2014-05-27 15:52:05	+jessieay	We did it with as: nil, and now we have:
+2014-05-27 15:52:06	+jessieay	GET    /sign_in(.:format)                                       sessions#new
+2014-05-27 15:52:06	+jessieay	                  sign_in GET    /sign_in(.:format)                                       clearance/sessions#new
+2014-05-27 15:52:27	+calebthompson	Yup the first one gets hit and the second never does.
+2014-05-27 15:52:40	+calebthompson	because fallthrough.
+2014-05-27 15:52:56	+jessieay	except that sign_in_path is still associated to the clearance/sessions#new route
+2014-05-27 15:53:07	+calebthompson	Yup, and it hits /sign_in which hits your nil path.
+2014-05-27 15:53:11	+calebthompson	Magic.
+2014-05-27 15:53:21	+jessieay	our before_filter of :authorize is still using the original path calebthompson
+2014-05-27 15:53:25	+calebthompson	bad magic, but magic.
+2014-05-27 15:54:14	+calebthompson	Is it actually hitting the clearance controller?
+2014-05-27 15:54:21	+gabebw	1
+2014-05-27 15:54:45	+calebthompson	Or is it hitting SessionsController which inherits from Clearance::SessionsController and hasn't defined its own #authorize?
+2014-05-27 15:54:47	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-27 15:54:59	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 15:55:05	+calebthompson	It needn't, unless you need to override that behavior.
+2014-05-27 15:55:42	+jessieay	the error the before_filter is giving is: No route matches {:action=>"new", :controller=>"clearance/sessions"} missing required keys: []
+2014-05-27 15:57:03	+mjankowski	paste some code
+2014-05-27 15:57:11	+mjankowski	like, relevant route definitions, and controller pieces
+2014-05-27 15:57:24	+jessieay	we have this: get '/sign_in', to: 'sessions#new', as: nil
+2014-05-27 15:58:06	+jessieay	our sessions controller https://github.com/thoughtbot/skilledup-academy/blob/master/app/controllers/sessions_controller.rb 
+2014-05-27 15:58:33	+calebthompson	https://github.com/thoughtbot/skilledup-academy/blob/master/app/controllers/sessions_controller.rb#L2 
+2014-05-27 15:58:35	--	Mode #code [-v russo : away] by russo
+2014-05-27 15:58:55	+calebthompson	`skip_before_filter :authorize, only: [], if: :signed_in?` ?
+2014-05-27 15:59:02	+calebthompson	fill in the only
+2014-05-27 15:59:11	--	Mode #code [+v russo : active] by russo
+2014-05-27 15:59:13	+jessieay	it is filled in?
+2014-05-27 15:59:28	+calebthompson	yeah put in your actions, I was just being lazy
+2014-05-27 15:59:58	+calebthompson	`skip_before_action` if you prefer.
+2014-05-27 16:00:35	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 16:00:35	--	Mode #code [-v harry : away] by harry
+2014-05-27 16:00:56	+calebthompson	You aren't skipping that filter with your current code, so both of them get exectuted. I think clearance's probably goes first since it's in order of definition.
+2014-05-27 16:01:08	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 16:01:49	+jessieay	hmmm that doesn't seem to change anything Caleb. Seemed promising though
+2014-05-27 16:02:04	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 16:02:12	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 16:02:15	+jessieay	FYI, this is only happening when we are trying to redirect non logged in users from Rails admin (rails_admin_path)
+2014-05-27 16:02:23	--	Mode #code [+v croaky : active] by croaky
+2014-05-27 16:02:26	+jessieay	that might be good info to have
+2014-05-27 16:02:32	+calebthompson	If only someone had written a simpler authentication library.~ Derek?
+2014-05-27 16:02:50	+calebthompson	jessie I'm not sure.
+2014-05-27 16:03:12	--	Mode #code [+v jclayton : active] by jclayton
+2014-05-27 16:06:34	+jessieay	GUESS WHAT FIXED IT
+2014-05-27 16:06:46	+jessieay	redefining `url_after_denied_access_when_signed_out` as `'/'`
+2014-05-27 16:06:50	+jessieay	que bueno
+2014-05-27 16:06:56	+jessieay	#ihatemyself
+2014-05-27 16:07:08	+jessieay	does not work with named routes
+2014-05-27 16:09:06	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 16:09:35	--	Mode #code [-v sikachu : away] by sikachu
+2014-05-27 16:09:39	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-27 16:11:35	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-27 16:11:35	--	Mode #code [-v desi : away] by desi
+2014-05-27 16:11:35	--	Mode #code [-v salbertson : away] by salbertson
+2014-05-27 16:11:35	--	Mode #code [-v greg : away] by greg
+2014-05-27 16:11:35	--	Mode #code [-v donokuda : away] by donokuda
+2014-05-27 16:11:35	--	Mode #code [-v elliotwinkler : away] by elliotwinkler
+2014-05-27 16:12:44	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-27 16:13:53	--	Mode #code [+v reda : active] by reda
+2014-05-27 16:13:56	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 16:14:35	--	Mode #code [-v simon : away] by simon
+2014-05-27 16:16:36	--	Mode #code [-v reda : away] by reda
+2014-05-27 16:17:00	--	Mode #code [-v ben : away] by ben
+2014-05-27 16:17:02	--	Mode #code [+v ben : active] by ben
+2014-05-27 16:17:35	--	Mode #code [-v tony : away] by tony
+2014-05-27 16:17:35	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-27 16:17:35	--	Mode #code [-v derek : away] by derek
+2014-05-27 16:17:35	--	Mode #code [-v phil : away] by phil
+2014-05-27 16:18:35	--	Mode #code [-v keithsmiley : away] by keithsmiley
+2014-05-27 16:18:54	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-27 16:19:29	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 16:19:35	--	Mode #code [-v ej : away] by ej
+2014-05-27 16:21:35	--	Mode #code [-v pbrisbin : away] by pbrisbin
+2014-05-27 16:23:35	--	Mode #code [-v gfontenot : away] by gfontenot
+2014-05-27 16:23:36	+croaky	@seantheprogrammer: this is the gulp <% %> stuff we saw https://github.com/adamayres/gulp-wrap 
+2014-05-27 16:23:47	+croaky	oh hi doggy
+2014-05-27 16:24:00	--	Mode #code [+v derek : active] by derek
+2014-05-27 16:27:41	+gabebw	doggy?
+2014-05-27 16:28:00	+gabebw	Is this a Room quote?
+2014-05-27 16:28:35	--	Mode #code [-v trace : away] by trace
+2014-05-27 16:28:42	+croaky	the github icon slack used for that repo is a doggy
+2014-05-27 16:28:49	+croaky	looks like a golden retriever at the beach
+2014-05-27 16:29:03	+gabebw	aha
+2014-05-27 16:29:13	+gabebw	i wonder why
+2014-05-27 16:29:47	+gabebw	oh, it's the author's gravatar.
+2014-05-27 16:29:47	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 16:30:51	+croaky	you boston CLI chatters are missing half the fun of chat rooms
+2014-05-27 16:31:04	--	Mode #code [+v tony : active] by tony
+2014-05-27 16:31:14	+jferris	you should see how many yaks I'm shaving though
+2014-05-27 16:31:20	+jferris	I bet I have way more yak hair than you
+2014-05-27 16:31:52	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-27 16:31:56	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 16:31:58	+croaky	sounds awesome. @i'm jealous@
+2014-05-27 16:32:03	--	Mode #code [-v draper : away] by draper
+2014-05-27 16:34:35	--	Mode #code [-v markadams : away] by markadams
+2014-05-27 16:34:35	--	Mode #code [-v sharley : away] by sharley
+2014-05-27 16:37:35	--	Mode #code [-v jclayton : away] by jclayton
+2014-05-27 16:38:18	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-27 16:38:42	--	Mode #code [+v desi : active] by desi
+2014-05-27 16:38:52	--	Mode #code [+v harry : active] by harry
+2014-05-27 16:40:35	--	Mode #code [-v jacknutting : away] by jacknutting
+2014-05-27 16:40:42	--	Mode #code [+v phil : active] by phil
+2014-05-27 16:40:42	--	Mode #code [+v trace : active] by trace
+2014-05-27 16:40:42	--	Mode #code [+v ej : active] by ej
+2014-05-27 16:40:42	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-27 16:40:43	--	Mode #code [+v markadams : active] by markadams
+2014-05-27 16:40:43	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 16:40:43	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-27 16:40:43	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 16:40:43	--	Mode #code [+v greg : active] by greg
+2014-05-27 16:41:26	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-27 16:42:26	+ben	Wait til Joe writes a plugin to specially highlight our sarcasm marks. Then your jealousy will be real.
+2014-05-27 16:42:34	--	Mode #code [+v simon : active] by simon
+2014-05-27 16:43:35	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-27 16:44:23	--	Mode #code [-v simon : away] by simon
+2014-05-27 16:44:29	--	Mode #code [+v simon : active] by simon
+2014-05-27 16:46:12	--	Mode #code [-v jessieay : away] by jessieay
+2014-05-27 16:46:35	--	Mode #code [-v christianreuter : away] by christianreuter
+2014-05-27 16:46:41	+derek	Sorry I missed the clearance chatter. My notifications appear to be fucked up.
+2014-05-27 16:47:35	--	Mode #code [-v simon : away] by simon
+2014-05-27 16:48:11	+gabebw	I built Factory Girl in 41 lines, I'd love your feedback: https://github.com/thoughtbot/robots.thoughtbot.com/pull/258 
+2014-05-27 16:48:29	+derek	I've used url_after_deniued_access_when_signed_out before without issue. It must have to do with the interplay between the engines?
+2014-05-27 16:48:31	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 16:49:14	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 16:49:35	--	Mode #code [+v draper : active] by draper
+2014-05-27 16:49:36	--	Mode #code [-v seandoyle : away] by seandoyle
+2014-05-27 16:50:23	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 16:50:26	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 16:51:58	--	Mode #code [-v trace : away] by trace
+2014-05-27 16:52:11	--	Mode #code [+v trace : active] by trace
+2014-05-27 16:52:35	--	Mode #code [-v draper : away] by draper
+2014-05-27 16:53:44	--	Mode #code [-v derek : away] by derek
+2014-05-27 16:53:53	--	Mode #code [+v derek : active] by derek
+2014-05-27 16:54:18	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 16:54:35	--	Mode #code [-v trace : away] by trace
+2014-05-27 16:55:21	--	Mode #code [+v simon : active] by simon
+2014-05-27 16:57:25	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 16:57:32	--	Mode #code [+v djcp : active] by djcp
+2014-05-27 17:02:35	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-27 17:03:35	--	Mode #code [-v mxie : away] by mxie
+2014-05-27 17:03:49	--	Mode #code [+v trace : active] by trace
+2014-05-27 17:04:44	--	Mode #code [-v blake : away] by blake
+2014-05-27 17:06:01	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 17:06:01	+mxie	Given a Date, I want to get all entries that were recorded on that date, but the column is a DateTime one. Is there a good, clean way to do this comparison?
+2014-05-27 17:06:54	+mxie	Or will I just have to do some to_date conversions?
+2014-05-27 17:07:27	--	Mode #code [-v chris : away] by chris
+2014-05-27 17:08:56	+mjankowski	you might be able to get free typecasting from db, depending what you're doing
+2014-05-27 17:09:13	+mjankowski	example, this works: User.where('start_date < ?', Date.new(2014,5,27)).first
+2014-05-27 17:09:16	--	Mode #code [+v eric : active] by eric
+2014-05-27 17:09:21	+mjankowski	(from Team app, `start_date` is a datetime)
+2014-05-27 17:09:29	+mjankowski	and does what you'd expect
+2014-05-27 17:09:35	--	Mode #code [-v seantheprogrammer : away] by seantheprogrammer
+2014-05-27 17:10:50	--	Mode #code [+v brenda : active] by brenda
+2014-05-27 17:10:57	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 17:11:34	--	Mode #code [-v brenda : away] by brenda
+2014-05-27 17:11:35	--	Mode #code [-v ej : away] by ej
+2014-05-27 17:11:35	--	Mode #code [-v salbertson : away] by salbertson
+2014-05-27 17:11:35	--	Mode #code [-v phil : away] by phil
+2014-05-27 17:11:35	--	Mode #code [-v greg : away] by greg
+2014-05-27 17:11:35	--	Mode #code [-v elliotwinkler : away] by elliotwinkler
+2014-05-27 17:11:35	--	Mode #code [-v markadams : away] by markadams
+2014-05-27 17:11:35	--	Mode #code [-v sharley : away] by sharley
+2014-05-27 17:11:35	--	Mode #code [-v joshuaogle : away] by joshuaogle
+2014-05-27 17:12:35	--	Mode #code [-v croaky : away] by croaky
+2014-05-27 17:12:55	--	Mode #code [-v mjankowski : away] by mjankowski
+2014-05-27 17:13:49	--	Mode #code [-v pbrisbin : away] by pbrisbin
+2014-05-27 17:13:53	--	Mode #code [+v pbrisbin : active] by pbrisbin
+2014-05-27 17:16:25	--	Mode #code [-v jferris : away] by jferris
+2014-05-27 17:16:27	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 17:16:38	+ben	Edge-casey kind of question, but it seems like you can't specify a custom error message for a shared example (rspec seemingly just ignores it). Anyone else run into this but made it work?
+2014-05-27 17:17:04	+jferris	ben: paste/link some code?
+2014-05-27 17:17:42	--	Mode #code [-v djcp : away] by djcp
+2014-05-27 17:18:31	+ben	ben uploaded a file: https://thoughtbot.slack.com/files/ben/F02AJSEKJ/trying_to_add_this.diff 
+2014-05-27 17:19:10	+seantheprogrammer	mxie: User.where(start_date: (date.at_beginning_of_day..date.at_end_of_day)) will do what you want.
+2014-05-27 17:19:24	+jferris	ben: I didn't know that worked (second argument to #to)
+2014-05-27 17:19:35	--	Mode #code [-v cpytel : away] by cpytel
+2014-05-27 17:19:43	+ben	https://www.relishapp.com/rspec/rspec-expectations/docs/customized-message 
+2014-05-27 17:20:17	+mxie	seantheprogrammer: heh, I actually just implemented it that way before I saw your message :)
+2014-05-27 17:20:23	+ben	Doesn't seem to work with shared examples. I think it's because rspec tells you where the shared example was called from.
+2014-05-27 17:20:25	--	Mode #code [-v tysongach : away] by tysongach
+2014-05-27 17:20:29	+ben	"Shared Example Group: "markdown_enabled_view" called from ./spec/views/comments/_comment.html.haml_spec.rb:24"
+2014-05-27 17:20:29	+seantheprogrammer	Psychic five!
+2014-05-27 17:20:33	+mxie	seantheprogrammer: thanks for the confirmation! :)
+2014-05-27 17:20:34	--	Mode #code [+v croaky : active] by croaky
+2014-05-27 17:20:49	+ben	Hmm. That's on a different line actually. I think this might just be an rspec bug.
+2014-05-27 17:20:55	+jferris	bummer
+2014-05-27 17:20:59	+jferris	maybe try upgrading RSpec?
+2014-05-27 17:21:24	+ben	I shall.
+2014-05-27 17:22:26	+ben	Aside: snippet pasting is pretty sweet in Slack. If it highlighted that diff it'd be an A+.
+2014-05-27 17:22:53	--	Mode #code [-v jferris : away] by jferris
+2014-05-27 17:22:57	--	Mode #code [+v jferris : active] by jferris
+2014-05-27 17:23:01	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-27 17:24:36	+ben	Hmm. It works when I don't use have_selector.
+2014-05-27 17:24:52	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 17:26:30	--	Mode #code [-v ben : away] by ben
+2014-05-27 17:26:35	--	Mode #code [-v russo : away] by russo
+2014-05-27 17:26:43	--	Mode #code [+v ben : active] by ben
+2014-05-27 17:30:47	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 17:32:35	--	Mode #code [-v harry : away] by harry
+2014-05-27 17:33:34	--	Mode #code [+v markadams : active] by markadams
+2014-05-27 17:34:56	--	Mode #code [+v greg : active] by greg
+2014-05-27 17:35:17	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-27 17:35:35	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-27 17:35:35	--	Mode #code [-v simon : away] by simon
+2014-05-27 17:35:35	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-27 17:36:07	--	Mode #code [-v cpytel : away] by cpytel
+2014-05-27 18:32:15	--	irc: disconnected from server
+2014-05-27 18:32:25	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 18:32:25	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 18:32:25	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 18:32:25	--	Mode #code [+v croaky : active] by croaky
+2014-05-27 18:32:25	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 18:32:25	--	Mode #code [+v markadams : active] by markadams
+2014-05-27 18:32:25	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 18:32:25	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-27 18:32:25	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-27 18:32:25	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-27 18:32:25	--	Mode #code [+v phil : active] by phil
+2014-05-27 18:32:25	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-27 18:32:25	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 18:32:25	--	Mode #code [+v simon : active] by simon
+2014-05-27 18:32:25	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 18:32:25	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 18:32:25	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 18:32:25	--	Mode #code [+v russo : active] by russo
+2014-05-27 18:32:25	--	Mode #code [+v justin : active] by justin
+2014-05-27 18:32:35	--	Mode #code [+nt]
+2014-05-27 18:32:35	--	Channel created on Tue, 27 May 2014 18:32:34
+2014-05-27 18:32:36	--	Mode #code [-v croaky : away] by croaky
+2014-05-27 19:33:01	--	irc: disconnected from server
+2014-05-27 19:33:11	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 19:33:11	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 19:33:11	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 19:33:11	--	Mode #code [+v croaky : active] by croaky
+2014-05-27 19:33:11	--	Mode #code [+v markadams : active] by markadams
+2014-05-27 19:33:11	--	Mode #code [+v draper : active] by draper
+2014-05-27 19:33:11	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 19:33:11	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-27 19:33:11	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-27 19:33:11	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 19:33:11	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 19:33:11	--	Mode #code [+v justin : active] by justin
+2014-05-27 19:33:21	--	Mode #code [+nt]
+2014-05-27 19:33:21	--	Channel created on Tue, 27 May 2014 19:33:20
+2014-05-27 20:33:49	--	irc: disconnected from server
+2014-05-27 20:33:59	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 20:33:59	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 20:33:59	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 20:33:59	--	Mode #code [+v sharley : active] by sharley
+2014-05-27 20:33:59	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-27 20:33:59	--	Mode #code [+v justin : active] by justin
+2014-05-27 20:34:09	--	Mode #code [+nt]
+2014-05-27 20:34:09	--	Channel created on Tue, 27 May 2014 20:34:09
+2014-05-27 20:53:36	--	irc: disconnected from server
+2014-05-27 22:25:01	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 22:25:01	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 22:25:01	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 22:25:01	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 22:25:01	--	Mode #code [+v phil : active] by phil
+2014-05-27 22:25:01	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 22:25:01	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 22:25:01	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 22:25:01	--	Mode #code [+v tony : active] by tony
+2014-05-27 22:25:01	--	Mode #code [+v justin : active] by justin
+2014-05-27 22:25:10	--	Mode #code [+nt]
+2014-05-27 22:25:10	--	Channel created on Tue, 27 May 2014 22:25:10
+2014-05-27 22:26:01	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-27 22:26:35	--	Mode #code [-v tony : away] by tony
+2014-05-27 22:28:00	--	irc: disconnected from server
+2014-05-27 22:28:10	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 22:28:10	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 22:28:10	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 22:28:10	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 22:28:10	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-27 22:28:10	--	Mode #code [+v phil : active] by phil
+2014-05-27 22:28:10	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 22:28:10	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 22:28:10	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 22:28:10	--	Mode #code [+v justin : active] by justin
+2014-05-27 22:28:20	--	Mode #code [+nt]
+2014-05-27 22:28:20	--	Channel created on Tue, 27 May 2014 22:28:20
+2014-05-27 22:28:35	--	Mode #code [-v joshuaogle : away] by joshuaogle
+2014-05-27 22:34:35	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-27 22:36:35	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-27 22:38:30	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 22:39:05	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 22:40:05	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 22:40:45	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-27 22:40:45	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 22:40:45	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 22:41:45	--	Mode #code [-v mxie : away] by mxie
+2014-05-27 22:41:57	--	Mode #code [-v phil : away] by phil
+2014-05-27 22:42:17	--	Mode #code [+v greg : active] by greg
+2014-05-27 22:42:42	--	Mode #code [+v phil : active] by phil
+2014-05-27 22:44:02	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 22:44:35	--	Mode #code [-v greg : away] by greg
+2014-05-27 22:46:35	--	Mode #code [-v melanie : away] by melanie
+2014-05-27 22:50:14	--	Mode #code [+v ben : active] by ben
+2014-05-27 22:50:46	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 22:51:45	--	Mode #code [+v desi : active] by desi
+2014-05-27 22:52:10	--	Mode #code [+v draper : active] by draper
+2014-05-27 22:52:35	--	Mode #code [-v ben : away] by ben
+2014-05-27 22:53:35	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-27 22:53:47	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-27 22:54:35	--	Mode #code [-v draper : away] by draper
+2014-05-27 23:03:37	--	Mode #code [+v draper : active] by draper
+2014-05-27 23:04:35	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-27 23:11:35	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-27 23:11:35	--	Mode #code [-v keithsmiley : away] by keithsmiley
+2014-05-27 23:11:35	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-27 23:11:35	--	Mode #code [-v seantheprogrammer : away] by seantheprogrammer
+2014-05-27 23:13:00	--	Mode #code [-v calebthompson : away] by calebthompson
+2014-05-27 23:13:19	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 23:13:35	--	Mode #code [-v phil : away] by phil
+2014-05-27 23:16:40	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-27 23:22:35	--	Mode #code [-v desi : away] by desi
+2014-05-27 23:25:08	--	Mode #code [+v tony : active] by tony
+2014-05-27 23:25:35	--	Mode #code [-v kylefiedler : away] by kylefiedler
+2014-05-27 23:26:35	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 23:26:35	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 23:26:35	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 23:26:35	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-27 23:26:35	--	Mode #code [+v draper : active] by draper
+2014-05-27 23:26:35	--	Mode #code [+v tony : active] by tony
+2014-05-27 23:26:35	--	Mode #code [+v justin : active] by justin
+2014-05-27 23:26:41	--	Mode #code [+nt]
+2014-05-27 23:26:41	--	Channel created on Tue, 27 May 2014 23:26:41
+2014-05-27 23:27:35	--	Mode #code [-v tony : away] by tony
+2014-05-27 23:29:35	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-27 23:31:29	--	Mode #code [+v phil : active] by phil
+2014-05-27 23:31:29	--	Mode #code [-v phil : away] by phil
+2014-05-27 23:31:30	--	Mode #code [+v phil : active] by phil
+2014-05-27 23:34:35	--	Mode #code [-v draper : away] by draper
+2014-05-27 23:38:07	--	Mode #code [+v draper : active] by draper
+2014-05-27 23:38:42	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 23:39:15	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-27 23:39:35	--	Mode #code [-v phil : away] by phil
+2014-05-27 23:39:51	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 23:40:45	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 23:40:45	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 23:42:29	--	Mode #code [-v draper : away] by draper
+2014-05-27 23:44:03	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-27 23:44:46	--	Mode #code [+v melanie : active] by melanie
+2014-05-27 23:47:35	--	Mode #code [-v melanie : away] by melanie
+2014-05-27 23:51:00	--	Mode #code [+v ben : active] by ben
+2014-05-27 23:51:13	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 23:53:25	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 23:53:25	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 23:53:25	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 23:53:25	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 23:53:25	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 23:53:25	--	Mode #code [+v mxie : active] by mxie
+2014-05-27 23:53:25	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 23:53:25	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-27 23:53:25	--	Mode #code [+v ben : active] by ben
+2014-05-27 23:53:25	--	Mode #code [+v justin : active] by justin
+2014-05-27 23:53:31	--	Mode #code [+nt]
+2014-05-27 23:53:31	--	Channel created on Tue, 27 May 2014 23:53:31
+2014-05-27 23:53:35	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-27 23:53:35	--	Mode #code [-v ben : away] by ben
+2014-05-27 23:55:08	--	Mode #code [-v mxie : away] by mxie
+2014-05-27 23:56:25	--	irc: disconnected from server
+2014-05-27 23:56:36	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-27 23:56:36	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-27 23:56:36	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-27 23:56:36	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-27 23:56:36	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-27 23:56:36	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-27 23:56:36	--	Mode #code [+v justin : active] by justin
+2014-05-27 23:56:46	--	Mode #code [+nt]
+2014-05-27 23:56:46	--	Channel created on Tue, 27 May 2014 23:56:46
+2014-05-28 00:05:29	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 09:32:26	--	irc: disconnected from server
+2014-05-28 09:32:57	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 09:32:57	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 09:32:57	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 09:32:57	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-28 09:32:57	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-28 09:32:57	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 09:32:57	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 09:32:57	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 09:32:57	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 09:32:57	--	Mode #code [+v reda : active] by reda
+2014-05-28 09:32:57	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 09:32:57	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 09:32:57	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 09:32:57	--	Mode #code [+v blake : active] by blake
+2014-05-28 09:32:57	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 09:32:57	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 09:32:57	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-28 09:32:57	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 09:32:57	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-28 09:32:57	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 09:32:57	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 09:32:57	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-28 09:32:57	--	Mode #code [+v justin : active] by justin
+2014-05-28 09:32:57	--	Mode #code [+v justin : active] by justin
+2014-05-28 09:33:06	--	Mode #code [+nt]
+2014-05-28 09:33:06	--	Channel created on Wed, 28 May 2014 09:33:05
+2014-05-28 09:33:08	--	Mode #code [+v tony : active] by tony
+2014-05-28 09:33:50	--	Mode #code [+v derek : active] by derek
+2014-05-28 09:36:40	--	Mode #code [+v chris : active] by chris
+2014-05-28 09:36:40	--	Mode #code [-v tony : away] by tony
+2014-05-28 09:36:40	+seantheprogrammer	Why not `gqip`?
+2014-05-28 09:36:40	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-28 09:36:40	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 09:36:46	--	Mode #code [+v draper : active] by draper
+2014-05-28 09:38:06	+gabebw	Gosh. I'll do that next time.
+2014-05-28 09:38:13	--	Mode #code [+v trace : active] by trace
+2014-05-28 09:38:36	--	Mode #code [-v trace : away] by trace
+2014-05-28 09:39:13	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 09:39:23	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-28 09:39:25	+seantheprogrammer	You've been wasting seconds, Gabe! SECONDS!
+2014-05-28 09:39:25	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 09:39:36	--	Mode #code [-v magnus : away] by magnus
+2014-05-28 09:40:04	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 09:40:11	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-28 09:43:07	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 09:44:36	--	Mode #code [-v jacknutting : away] by jacknutting
+2014-05-28 09:44:52	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 09:50:26	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 09:53:37	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 09:55:43	--	Mode #code [+v tony : active] by tony
+2014-05-28 09:58:12	--	Mode #code [+v ej : active] by ej
+2014-05-28 09:58:34	--	Mode #code [+v ben : active] by ben
+2014-05-28 09:58:36	--	Mode #code [-v seandoyle : away] by seandoyle
+2014-05-28 10:00:19	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-28 10:01:29	--	Mode #code [-v ben : away] by ben
+2014-05-28 10:01:34	--	Mode #code [+v ben : active] by ben
+2014-05-28 10:03:12	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 10:03:12	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 10:03:12	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 10:03:12	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-28 10:03:12	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-28 10:03:12	--	Mode #code [+v draper : active] by draper
+2014-05-28 10:03:12	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 10:03:12	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 10:03:12	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 10:03:12	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 10:03:12	--	Mode #code [+v reda : active] by reda
+2014-05-28 10:03:12	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 10:03:12	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 10:03:12	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 10:03:12	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 10:03:12	--	Mode #code [+v blake : active] by blake
+2014-05-28 10:03:12	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 10:03:12	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 10:03:12	--	Mode #code [+v derek : active] by derek
+2014-05-28 10:03:12	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 10:03:12	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 10:03:12	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 10:03:12	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-28 10:03:12	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-28 10:03:12	--	Mode #code [+v chris : active] by chris
+2014-05-28 10:03:12	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 10:03:12	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 10:03:12	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 10:03:12	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-28 10:03:12	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 10:03:12	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 10:03:12	--	Mode #code [+v justin : active] by justin
+2014-05-28 10:03:12	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-28 10:03:12	--	Mode #code [+v ej : active] by ej
+2014-05-28 10:03:12	--	Mode #code [+v ben : active] by ben
+2014-05-28 10:03:12	--	Mode #code [+v tony : active] by tony
+2014-05-28 10:03:12	--	Mode #code [+v justin : active] by justin
+2014-05-28 10:03:18	--	Mode #code [+nt]
+2014-05-28 10:03:18	--	Channel created on Wed, 28 May 2014 10:03:18
+2014-05-28 10:07:10	--	Mode #code [+v harry : active] by harry
+2014-05-28 10:09:26	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 10:10:35	--	Mode #code [-v georgebrock : away] by georgebrock
+2014-05-28 10:11:35	--	Mode #code [-v keithsmiley : away] by keithsmiley
+2014-05-28 10:11:35	--	Mode #code [-v kylefiedler : away] by kylefiedler
+2014-05-28 10:11:51	--	Mode #code [-v melanie : away] by melanie
+2014-05-28 10:12:44	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 10:13:05	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 10:13:36	--	Mode #code [-v mxie : away] by mxie
+2014-05-28 10:13:44	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 10:16:36	--	Mode #code [-v joelq : away] by joelq
+2014-05-28 10:21:07	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-28 10:21:12	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 10:22:39	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 10:24:36	--	Mode #code [-v brittballard : away] by brittballard
+2014-05-28 10:26:21	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 10:26:35	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-28 10:27:13	--	Mode #code [+v djcp : active] by djcp
+2014-05-28 10:29:19	--	Mode #code [-v melanie : away] by melanie
+2014-05-28 10:30:22	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 10:30:43	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 10:31:35	--	Mode #code [-v ben : away] by ben
+2014-05-28 10:33:35	--	Mode #code [-v ej : away] by ej
+2014-05-28 10:34:34	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 10:34:36	--	Mode #code [+v ben : active] by ben
+2014-05-28 10:34:36	--	Mode #code [+v ej : active] by ej
+2014-05-28 10:34:36	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 10:35:57	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 10:36:43	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 10:37:35	--	Mode #code [-v joelq : away] by joelq
+2014-05-28 10:37:56	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 10:38:41	--	Mode #code [-v chris : away] by chris
+2014-05-28 10:38:45	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 10:40:46	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 10:40:52	--	Mode #code [+v eric : active] by eric
+2014-05-28 10:41:36	--	Mode #code [-v cpytel : away] by cpytel
+2014-05-28 10:42:33	--	Mode #code [-v eric : away] by eric
+2014-05-28 10:42:37	--	Mode #code [+v phil : active] by phil
+2014-05-28 10:42:43	--	Mode #code [+v eric : active] by eric
+2014-05-28 10:43:40	--	Mode #code [+v russo : active] by russo
+2014-05-28 10:44:20	--	Mode #code [-v eric : away] by eric
+2014-05-28 10:45:30	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 10:45:30	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 10:45:30	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 10:45:30	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 10:45:30	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-28 10:45:30	--	Mode #code [+v draper : active] by draper
+2014-05-28 10:45:30	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 10:45:30	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 10:45:30	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 10:45:30	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 10:45:30	--	Mode #code [+v phil : active] by phil
+2014-05-28 10:45:30	--	Mode #code [+v reda : active] by reda
+2014-05-28 10:45:30	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 10:45:30	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 10:45:30	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 10:45:30	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 10:45:30	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 10:45:30	--	Mode #code [+v blake : active] by blake
+2014-05-28 10:45:30	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 10:45:30	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 10:45:30	--	Mode #code [+v derek : active] by derek
+2014-05-28 10:45:30	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 10:45:30	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 10:45:30	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 10:45:30	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-28 10:45:30	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-28 10:45:30	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 10:45:30	--	Mode #code [+v harry : active] by harry
+2014-05-28 10:45:30	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 10:45:30	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 10:45:30	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 10:45:30	--	Mode #code [+v seandoyle : active] by seandoyle
+2014-05-28 10:45:30	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 10:45:30	--	Mode #code [+v djcp : active] by djcp
+2014-05-28 10:45:30	--	Mode #code [+v russo : active] by russo
+2014-05-28 10:45:30	--	Mode #code [+v ej : active] by ej
+2014-05-28 10:45:30	--	Mode #code [+v ben : active] by ben
+2014-05-28 10:45:30	--	Mode #code [+v tony : active] by tony
+2014-05-28 10:45:30	--	Mode #code [+v justin : active] by justin
+2014-05-28 10:45:35	--	Mode #code [+nt]
+2014-05-28 10:45:35	--	Channel created on Wed, 28 May 2014 10:45:35
+2014-05-28 10:47:00	--	Mode #code [+v chris : active] by chris
+2014-05-28 10:48:23	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 10:48:55	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 10:49:08	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 10:49:09	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 10:49:41	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 10:49:55	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 10:51:35	--	Mode #code [-v ben : away] by ben
+2014-05-28 10:51:35	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-28 10:51:57	--	Mode #code [-v mxie : away] by mxie
+2014-05-28 10:51:58	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 10:52:05	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 10:52:35	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-28 10:53:16	--	Mode #code [+v eric : active] by eric
+2014-05-28 10:53:55	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 10:53:59	--	Mode #code [+v ben : active] by ben
+2014-05-28 10:54:00	--	Mode #code [-v arunagw : away] by arunagw
+2014-05-28 10:54:39	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-28 10:54:40	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 10:56:36	--	Mode #code [-v ben : away] by ben
+2014-05-28 10:56:40	--	Mode #code [-v harry : away] by harry
+2014-05-28 10:57:05	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 10:57:36	--	Mode #code [-v djcp : away] by djcp
+2014-05-28 11:00:31	--	Mode #code [-v eric : away] by eric
+2014-05-28 11:00:36	--	Mode #code [+v eric : active] by eric
+2014-05-28 11:03:30	+justin	6/script
+2014-05-28 11:03:34	+justin	argh
+2014-05-28 11:03:36	--	Mode #code [-v melanie : away] by melanie
+2014-05-28 11:04:09	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 11:05:23	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 11:09:27	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-28 11:11:35	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-28 11:11:35	--	Mode #code [-v keithsmiley : away] by keithsmiley
+2014-05-28 11:11:35	--	Mode #code [-v christianreuter : away] by christianreuter
+2014-05-28 11:11:35	--	Mode #code [-v magnus : away] by magnus
+2014-05-28 11:11:35	--	Mode #code [-v lisasy : away] by lisasy
+2014-05-28 11:11:35	--	Mode #code [-v kylefiedler : away] by kylefiedler
+2014-05-28 11:12:00	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 11:13:54	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-28 11:14:02	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 11:14:35	--	Mode #code [-v croaky : away] by croaky
+2014-05-28 11:14:58	--	Mode #code [+v greg : active] by greg
+2014-05-28 11:16:45	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 11:17:03	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 11:17:04	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 11:17:36	--	Mode #code [-v seandoyle : away] by seandoyle
+2014-05-28 11:18:36	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-28 11:19:35	--	Mode #code [-v greg : away] by greg
+2014-05-28 11:19:43	--	Mode #code [+v ben : active] by ben
+2014-05-28 11:21:45	+eric	Does anyone know how create custom controller for Rails Admin?
+2014-05-28 11:22:55	+eric	Or how to make Rails Admin interact with a custom controller?
+2014-05-28 11:24:00	--	Mode #code [-v melanie : away] by melanie
+2014-05-28 11:24:08	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 11:24:30	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 11:24:35	--	Mode #code [-v ben : away] by ben
+2014-05-28 11:25:18	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 11:25:22	+gabebw	Do you mean something like this? https://github.com/sferik/rails_admin/wiki/Actions 
+2014-05-28 11:25:24		[ http://is.gd/lXktJn ]
+2014-05-28 11:26:08	+jessieay	As far as I know, that is related to the rails admin view. But I could be wrong. Looking into it more
+2014-05-28 11:27:11	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 11:27:21	+eric	Yes, I looked at that, what I guess I'm trying to do is define an a specific resource not directly related to that database. More of a subset of functionality to that database model.
+2014-05-28 11:27:35	--	Mode #code [-v russo : away] by russo
+2014-05-28 11:30:07	+jessieay	this is kind of what eric and I are looking for, but pretty ugly http://blog.endpoint.com/2012/03/railsadmin-custom-action-case-study.html 
+2014-05-28 11:30:09		[ http://is.gd/xF41C0 ]
+2014-05-28 11:30:16	+jessieay	(link was one page you sent, Gabe. thanks!)
+2014-05-28 11:30:35	--	Mode #code [-v mxie : away] by mxie
+2014-05-28 11:31:19	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 11:31:32	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 11:32:18	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 11:33:30	+mjankowski	presumably if you had something which was modelish (maybe RA uses `ActiveModel` api?) you could just configure it like a normal RA model and it would work
+2014-05-28 11:33:34	+mjankowski	mostly guessing there
+2014-05-28 11:34:22	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 11:34:32	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-28 11:34:33	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 11:34:35	--	Mode #code [-v ej : away] by ej
+2014-05-28 11:34:45	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 11:34:58	+iwz	Does suspenders define a default mailer From address?
+2014-05-28 11:35:04	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 11:35:09	+iwz	not seeing any obvious place to put it
+2014-05-28 11:35:18	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 11:35:31	+jessieay	I think that is in config/smtp?
+2014-05-28 11:35:46	+jessieay	oh no wait, it is in the environment config files
+2014-05-28 11:35:49	+iwz	@jessieay: that has all the config info for the mail server
+2014-05-28 11:35:53	--	Mode #code [-v sharley : away] by sharley
+2014-05-28 11:36:09	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 11:36:09	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 11:36:09	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 11:36:09	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 11:36:09	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-28 11:36:09	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 11:36:09	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-28 11:36:09	--	Mode #code [+v draper : active] by draper
+2014-05-28 11:36:09	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 11:36:09	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 11:36:09	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 11:36:09	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 11:36:09	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 11:36:10	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 11:36:10	--	Mode #code [+v phil : active] by phil
+2014-05-28 11:36:10	--	Mode #code [+v reda : active] by reda
+2014-05-28 11:36:10	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 11:36:10	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 11:36:10	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 11:36:10	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 11:36:10	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 11:36:10	--	Mode #code [+v blake : active] by blake
+2014-05-28 11:36:10	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 11:36:10	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 11:36:10	--	Mode #code [+v derek : active] by derek
+2014-05-28 11:36:10	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 11:36:10	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 11:36:10	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-28 11:36:10	--	Mode #code [+v chris : active] by chris
+2014-05-28 11:36:10	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 11:36:10	--	Mode #code [+v eric : active] by eric
+2014-05-28 11:36:10	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 11:36:10	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 11:36:10	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 11:36:10	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 11:36:10	--	Mode #code [+v tony : active] by tony
+2014-05-28 11:36:10	--	Mode #code [+v justin : active] by justin
+2014-05-28 11:36:15	--	Mode #code [+nt]
+2014-05-28 11:36:15	--	Channel created on Wed, 28 May 2014 11:36:15
+2014-05-28 11:36:37	--	Mode #code [+v simon : active] by simon
+2014-05-28 11:37:35	--	Mode #code [-v jferris : away] by jferris
+2014-05-28 11:37:53	+jessieay	https://github.com/thoughtbot/arthritis/blob/327a1e5b52be7f86db09c952eefb98507fafd1b0/config/initializers/clearance.rb  @iws
+2014-05-28 11:37:56		[ http://is.gd/xFYOWt ]
+2014-05-28 11:37:57	+jessieay	@iwz:
+2014-05-28 11:38:08	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 11:40:35	--	Mode #code [-v sikachu : away] by sikachu
+2014-05-28 11:40:35	--	Mode #code [-v seantheprogrammer : away] by seantheprogrammer
+2014-05-28 11:40:46	--	Mode #code [+v ej : active] by ej
+2014-05-28 11:40:46	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 11:40:46	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 11:40:46	--	Mode #code [+v russo : active] by russo
+2014-05-28 11:40:47	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 11:40:49	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 11:41:46	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 11:41:46	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 11:41:46	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 11:41:46	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 11:41:46	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-28 11:41:46	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 11:41:46	--	Mode #code [+v mjankowski : active] by mjankowski
+2014-05-28 11:41:46	--	Mode #code [+v draper : active] by draper
+2014-05-28 11:41:46	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 11:41:46	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 11:41:46	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 11:41:46	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 11:41:46	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 11:41:46	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 11:41:46	--	Mode #code [+v phil : active] by phil
+2014-05-28 11:41:46	--	Mode #code [+v reda : active] by reda
+2014-05-28 11:41:46	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 11:41:46	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 11:41:46	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 11:41:46	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 11:41:46	--	Mode #code [+v blake : active] by blake
+2014-05-28 11:41:46	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 11:41:46	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 11:41:46	--	Mode #code [+v derek : active] by derek
+2014-05-28 11:41:46	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 11:41:46	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 11:41:46	--	Mode #code [+v simon : active] by simon
+2014-05-28 11:41:46	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 11:41:46	--	Mode #code [+v mike-burns : active] by mike-burns
+2014-05-28 11:41:46	--	Mode #code [+v chris : active] by chris
+2014-05-28 11:41:46	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 11:41:46	--	Mode #code [+v eric : active] by eric
+2014-05-28 11:41:46	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 11:41:46	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 11:41:46	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 11:41:46	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 11:41:46	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 11:41:46	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 11:41:46	--	Mode #code [+v russo : active] by russo
+2014-05-28 11:41:46	--	Mode #code [+v ej : active] by ej
+2014-05-28 11:41:46	--	Mode #code [+v tony : active] by tony
+2014-05-28 11:41:46	--	Mode #code [+v justin : active] by justin
+2014-05-28 11:41:51	--	Mode #code [+nt]
+2014-05-28 11:41:51	--	Channel created on Wed, 28 May 2014 11:41:51
+2014-05-28 11:44:38	--	Mode #code [-v melanie : away] by melanie
+2014-05-28 11:44:50	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 11:46:53	--	Mode #code [+v ben : active] by ben
+2014-05-28 11:47:24	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 11:47:24	--	Mode #code [-v sharley : away] by sharley
+2014-05-28 11:47:35	--	Mode #code [-v tysongach : away] by tysongach
+2014-05-28 11:47:45	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 11:49:26	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 11:49:34	--	Mode #code [-v mike-burns : away] by mike-burns
+2014-05-28 11:49:35	--	Mode #code [-v cpytel : away] by cpytel
+2014-05-28 11:49:46	--	Mode #code [-v mjankowski : away] by mjankowski
+2014-05-28 11:50:27	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 11:50:27	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 11:50:27	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 11:50:27	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 11:50:27	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 11:50:27	--	Mode #code [+v draper : active] by draper
+2014-05-28 11:50:27	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 11:50:27	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 11:50:27	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 11:50:27	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 11:50:27	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 11:50:27	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 11:50:27	--	Mode #code [+v phil : active] by phil
+2014-05-28 11:50:27	--	Mode #code [+v reda : active] by reda
+2014-05-28 11:50:27	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 11:50:27	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 11:50:27	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 11:50:27	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 11:50:27	--	Mode #code [+v blake : active] by blake
+2014-05-28 11:50:27	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 11:50:27	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 11:50:27	--	Mode #code [+v derek : active] by derek
+2014-05-28 11:50:27	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 11:50:27	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 11:50:27	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 11:50:27	--	Mode #code [+v simon : active] by simon
+2014-05-28 11:50:27	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 11:50:27	--	Mode #code [+v chris : active] by chris
+2014-05-28 11:50:27	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 11:50:27	--	Mode #code [+v eric : active] by eric
+2014-05-28 11:50:27	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 11:50:27	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 11:50:27	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 11:50:27	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 11:50:27	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 11:50:27	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 11:50:27	--	Mode #code [+v russo : active] by russo
+2014-05-28 11:50:27	--	Mode #code [+v ej : active] by ej
+2014-05-28 11:50:27	--	Mode #code [+v ben : active] by ben
+2014-05-28 11:50:27	--	Mode #code [+v tony : active] by tony
+2014-05-28 11:50:27	--	Mode #code [+v justin : active] by justin
+2014-05-28 11:50:33	--	Mode #code [+nt]
+2014-05-28 11:50:33	--	Channel created on Wed, 28 May 2014 11:50:33
+2014-05-28 11:50:35	--	Mode #code [-v croaky : away] by croaky
+2014-05-28 11:53:35	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-28 11:53:47	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 11:54:50	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 11:57:35	--	Mode #code [-v eric : away] by eric
+2014-05-28 12:28:04	--	irc: disconnected from server
+2014-05-28 12:28:14	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 12:28:14	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 12:28:14	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 12:28:14	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 12:28:14	--	Mode #code [+v draper : active] by draper
+2014-05-28 12:28:14	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 12:28:14	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 12:28:14	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 12:28:14	--	Mode #code [+v phil : active] by phil
+2014-05-28 12:28:14	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 12:28:14	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 12:28:14	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 12:28:14	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 12:28:14	--	Mode #code [+v derek : active] by derek
+2014-05-28 12:28:14	--	Mode #code [+v simon : active] by simon
+2014-05-28 12:28:14	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 12:28:14	--	Mode #code [+v chris : active] by chris
+2014-05-28 12:28:14	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 12:28:14	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 12:28:14	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 12:28:14	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 12:28:14	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-28 12:28:14	--	Mode #code [+v ben : active] by ben
+2014-05-28 12:28:14	--	Mode #code [+v justin : active] by justin
+2014-05-28 12:28:24	--	Mode #code [+nt]
+2014-05-28 12:28:24	--	Channel created on Wed, 28 May 2014 12:28:24
+2014-05-28 12:28:34	--	Mode #code [+v cpytel : active] by cpytel
+2014-05-28 12:28:35	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 12:28:35	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 12:28:39	--	Mode #code [-v jessieay : away] by jessieay
+2014-05-28 12:28:39	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:04:24	--	irc: disconnected from server
+2014-05-28 13:04:34	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:04:34	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:04:34	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:04:34	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:04:34	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:04:34	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:04:34	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:04:34	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:04:34	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:04:34	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:04:34	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:04:34	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:04:34	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 13:04:34	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:04:34	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:04:34	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:04:34	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:04:34	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:04:34	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:04:34	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:04:34	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:04:34	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:04:34	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:04:34	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 13:04:34	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:04:34	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:04:34	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 13:04:34	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:04:34	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:04:34	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:04:34	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:04:34	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:04:34	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:04:34	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:04:34	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:04:34	--	Mode #code [+v ben : active] by ben
+2014-05-28 13:04:34	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:04:34	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:04:44	--	Mode #code [+nt]
+2014-05-28 13:04:44	--	Channel created on Wed, 28 May 2014 13:04:44
+2014-05-28 13:07:22	--	Mode #code [+v arunagw : active] by arunagw
+2014-05-28 13:07:54	--	Mode #code [-v arunagw : away] by arunagw
+2014-05-28 13:08:36	--	Mode #code [-v trevororeilly : away] by trevororeilly
+2014-05-28 13:09:09	--	Mode #code [+v magnus : active] by magnus
+2014-05-28 13:10:20	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:10:25	--	Mode #code [-v markadams : away] by markadams
+2014-05-28 13:10:26	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:11:18	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:11:36	--	Mode #code [-v jyurek : away] by jyurek
+2014-05-28 13:11:36	--	Mode #code [-v sikachu : away] by sikachu
+2014-05-28 13:11:36	--	Mode #code [-v iwz : away] by iwz
+2014-05-28 13:11:36	--	Mode #code [-v magnus : away] by magnus
+2014-05-28 13:11:36	--	Mode #code [-v ej : away] by ej
+2014-05-28 13:11:36	--	Mode #code [-v phil : away] by phil
+2014-05-28 13:11:36	--	Mode #code [-v seantheprogrammer : away] by seantheprogrammer
+2014-05-28 13:11:36	--	Mode #code [-v draper : away] by draper
+2014-05-28 13:11:36	--	Mode #code [-v kylefiedler : away] by kylefiedler
+2014-05-28 13:12:03	--	Mode #code [-v joshuaogle : away] by joshuaogle
+2014-05-28 13:12:09	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:13:09	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:13:36	--	Mode #code [-v mxie : away] by mxie
+2014-05-28 13:14:27	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:14:48	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:19:36	--	Mode #code [-v elliotwinkler : away] by elliotwinkler
+2014-05-28 13:20:39	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:21:36	--	Mode #code [-v ben : away] by ben
+2014-05-28 13:22:36	--	Mode #code [-v keithsmiley : away] by keithsmiley
+2014-05-28 13:23:21	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:26:38	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:26:38	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:26:38	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:26:38	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:26:38	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:26:38	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:26:38	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:26:38	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:26:38	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:26:38	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:26:38	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:26:38	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:26:38	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:26:38	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:26:38	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:26:38	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:26:38	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:26:38	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:26:38	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:26:38	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:26:38	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:26:38	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 13:26:38	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:26:38	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:26:38	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:26:38	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:26:38	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:26:38	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:26:38	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:26:38	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:26:38	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:26:38	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:26:43	--	Mode #code [+nt]
+2014-05-28 13:26:43	--	Channel created on Wed, 28 May 2014 13:26:43
+2014-05-28 13:34:01	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:34:01	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:34:01	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:34:01	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:34:01	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:34:01	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:34:01	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:34:01	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:34:01	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:34:01	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:34:01	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:34:01	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:34:01	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:34:01	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:34:01	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:34:01	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:34:01	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:34:01	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:34:01	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:34:01	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:34:01	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:34:01	--	Mode #code [+v jferris : active] by jferris
+2014-05-28 13:34:01	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:34:01	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:34:01	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:34:01	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:34:01	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:34:01	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:34:01	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:34:01	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:34:01	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:34:01	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:34:01	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:34:01	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:34:06	--	Mode #code [+nt]
+2014-05-28 13:34:06	--	Channel created on Wed, 28 May 2014 13:34:06
+2014-05-28 13:34:10	--	Mode #code [-v jferris : away] by jferris
+2014-05-28 13:38:00	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:38:00	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:38:00	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:38:00	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:38:00	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:38:00	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:38:00	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:38:00	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:38:00	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:38:00	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:38:00	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:38:00	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:38:00	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:38:00	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:38:00	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:38:00	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:38:00	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:38:00	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:38:00	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:38:00	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:38:00	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:38:00	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:38:00	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:38:00	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:38:00	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:38:00	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:38:00	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:38:00	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:38:00	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:38:00	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:38:00	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:38:05	--	Mode #code [+nt]
+2014-05-28 13:38:05	--	Channel created on Wed, 28 May 2014 13:38:05
+2014-05-28 13:38:50	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:38:50	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:38:50	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:38:50	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:38:50	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:38:50	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:38:50	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:38:50	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:38:50	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:38:50	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:38:50	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:38:50	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:38:50	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:38:50	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:38:50	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:38:50	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:38:50	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:38:50	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:38:50	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:38:50	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:38:50	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:38:50	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:38:50	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:38:50	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:38:50	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:38:50	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:38:50	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:38:50	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:38:50	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:38:50	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:38:56	--	Mode #code [+nt]
+2014-05-28 13:38:56	--	Channel created on Wed, 28 May 2014 13:38:56
+2014-05-28 13:39:27	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:39:27	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:39:27	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:39:27	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:39:27	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:39:27	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:39:27	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:39:27	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:39:27	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:39:27	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:39:27	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:39:27	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:39:27	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:39:27	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:39:27	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:39:27	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:39:27	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:39:27	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:39:27	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:39:27	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:39:27	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:39:27	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:39:27	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:39:27	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:39:27	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:39:27	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:39:27	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:39:27	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:39:27	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:43:02	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:43:02	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:43:02	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:43:02	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:43:02	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:43:02	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:43:02	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:43:02	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:43:02	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:43:02	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:43:02	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:43:02	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:43:02	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:43:02	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 13:43:02	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:43:02	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:43:02	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:43:02	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:43:02	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:43:02	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:43:02	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:43:02	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:43:02	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:43:02	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:43:02	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:43:02	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:43:02	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:43:02	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:43:02	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:43:02	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:43:02	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:43:02	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:43:02	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:43:02	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:43:02	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:43:02	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:43:02	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:43:02	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:43:02	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:43:02	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:43:02	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:43:07	--	Mode #code [+nt]
+2014-05-28 13:43:07	--	Channel created on Wed, 28 May 2014 13:43:07
+2014-05-28 13:43:14	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:43:14	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:43:14	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:43:14	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:43:14	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:43:14	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:43:14	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:43:14	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:43:14	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:43:14	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:43:14	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:43:14	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:43:14	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:43:14	--	Mode #code [+v kylefiedler : active] by kylefiedler
+2014-05-28 13:43:14	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:43:14	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:43:14	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:43:14	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:43:14	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:43:14	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:43:14	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:43:14	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:43:14	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:43:14	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:43:14	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:43:14	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:43:14	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:43:14	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:43:14	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:43:14	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:43:14	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:43:14	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:43:14	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:43:14	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:43:14	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:43:14	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:43:14	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:43:14	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:43:14	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:43:14	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:43:14	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:43:20	--	Mode #code [+nt]
+2014-05-28 13:43:20	--	Channel created on Wed, 28 May 2014 13:43:20
+2014-05-28 13:43:53	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:43:53	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:43:53	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:43:53	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:43:53	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:43:53	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:43:53	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:43:53	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:43:53	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:43:53	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:43:53	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:43:53	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:43:53	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:43:53	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:43:53	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:43:53	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:43:53	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:43:53	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:43:53	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:43:53	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:43:53	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:43:53	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:43:53	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:43:53	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:43:53	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:43:53	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:43:53	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:43:53	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:43:53	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:43:53	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:43:53	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:43:53	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:43:53	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:43:53	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:43:53	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:43:53	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:43:53	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:43:53	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:43:53	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:43:53	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:43:58	--	Mode #code [+nt]
+2014-05-28 13:43:58	--	Channel created on Wed, 28 May 2014 13:43:58
+2014-05-28 13:45:02	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:45:02	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:45:02	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:45:02	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:45:02	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:45:02	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:45:02	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:45:02	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:45:02	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:45:02	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:45:02	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:45:02	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:45:02	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:45:02	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:45:02	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:45:02	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:45:02	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:45:02	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:45:02	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:45:02	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:45:02	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:45:02	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:45:02	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:45:02	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:45:02	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:45:02	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:45:02	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:45:02	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:45:02	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:45:02	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:45:02	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:45:02	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:45:02	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:45:02	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:45:02	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:45:02	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:45:02	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:45:02	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:45:02	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:45:02	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:45:08	--	Mode #code [+nt]
+2014-05-28 13:45:08	--	Channel created on Wed, 28 May 2014 13:45:07
+2014-05-28 13:46:05	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:46:05	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:46:05	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:46:05	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:46:05	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:46:05	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:46:05	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:46:05	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:46:05	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:46:05	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:46:05	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:46:05	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:46:05	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:46:05	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:46:05	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:46:05	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:46:05	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:46:05	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:46:05	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:46:05	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:46:05	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:46:05	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:46:05	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:46:05	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:46:05	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:46:05	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:46:05	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:46:05	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:46:05	--	Mode #code [+v harry : active] by harry
+2014-05-28 13:46:05	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:46:05	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:46:05	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:46:05	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:46:05	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:46:05	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:46:05	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:46:05	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:46:05	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:46:05	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:46:05	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:47:12	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:47:12	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:47:12	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:47:12	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:47:12	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:47:12	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:47:12	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:47:12	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:47:12	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:47:12	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:47:12	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:47:12	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:47:12	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:47:12	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:47:12	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:47:12	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:47:12	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:47:12	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:47:12	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:47:12	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:47:12	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:47:12	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:47:12	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:47:12	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:47:12	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:47:12	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:47:12	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:47:12	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:47:12	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:47:12	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:47:12	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:47:12	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:47:12	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:47:12	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:47:12	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:47:12	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:47:12	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:47:12	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:47:12	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:47:12	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:47:18	--	Mode #code [+nt]
+2014-05-28 13:47:18	--	Channel created on Wed, 28 May 2014 13:47:18
+2014-05-28 13:49:58	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:49:58	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:49:58	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:49:58	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:49:58	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:49:58	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:49:58	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:49:58	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:49:58	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:49:58	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:49:58	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:49:58	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:49:58	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:49:58	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:49:58	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:49:58	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:49:58	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:49:58	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:49:58	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:49:58	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:49:58	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:49:58	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:49:58	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:49:58	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:49:58	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:49:58	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:49:58	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:49:58	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:49:58	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:49:58	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:49:58	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:49:58	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:49:58	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:49:58	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:49:58	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:49:58	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:49:58	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:49:58	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:49:58	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:49:58	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:50:04	--	Mode #code [+nt]
+2014-05-28 13:50:04	--	Channel created on Wed, 28 May 2014 13:50:04
+2014-05-28 13:53:06	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:53:06	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:53:06	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:53:06	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:53:06	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:53:06	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:53:06	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:53:06	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:53:06	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:53:06	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:53:06	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:53:06	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:53:06	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:53:06	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:53:06	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:53:06	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:53:06	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:53:06	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:53:06	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:53:06	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:53:06	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:53:06	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:53:06	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:53:06	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:53:06	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:53:06	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:53:06	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:53:06	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:53:06	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:53:06	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:53:06	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:53:06	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:53:06	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:53:06	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:53:06	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:53:06	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:53:06	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:53:06	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:53:06	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:53:06	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:53:11	--	Mode #code [+nt]
+2014-05-28 13:53:11	--	Channel created on Wed, 28 May 2014 13:53:11
+2014-05-28 13:53:22	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:53:22	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:53:22	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:53:22	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:53:22	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:53:22	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:53:22	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:53:22	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:53:22	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:53:22	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:53:22	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:53:22	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:53:22	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:53:22	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:53:22	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:53:22	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:53:22	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:53:22	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:53:22	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:53:22	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:53:22	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:53:22	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:53:22	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:53:22	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:53:22	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:53:22	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:53:22	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:53:22	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:53:22	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:53:22	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:53:22	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:53:22	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:53:22	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:53:22	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:53:22	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:53:22	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:53:22	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:53:22	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:53:22	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:53:22	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:53:50	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:53:50	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:53:50	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:53:50	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:53:50	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:53:50	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:53:50	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:53:50	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:53:50	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:53:50	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:53:50	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:53:50	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:53:50	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:53:50	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:53:50	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:53:50	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:53:50	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:53:50	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:53:50	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:53:50	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:53:50	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:53:50	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:53:50	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:53:50	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:53:50	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:53:50	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:53:50	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:53:50	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:53:50	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:53:50	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:53:50	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:53:50	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:53:50	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:53:50	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:53:50	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:53:50	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:53:50	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:53:50	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:53:50	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:53:50	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:53:50	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:55:58	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:55:58	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:55:58	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:55:58	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:55:58	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:55:58	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:55:58	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:55:58	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:55:58	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:55:58	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:55:58	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:55:58	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:55:58	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:55:58	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:55:58	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:55:58	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:55:58	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:55:58	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:55:58	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:55:58	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:55:58	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:55:58	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 13:55:58	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:55:58	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:55:58	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:55:58	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:55:58	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:55:58	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:55:58	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:55:58	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:55:58	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:55:58	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:55:58	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:55:58	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:55:58	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:55:58	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:55:58	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:55:58	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:55:58	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:55:58	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:56:03	--	Mode #code [+nt]
+2014-05-28 13:56:03	--	Channel created on Wed, 28 May 2014 13:56:03
+2014-05-28 13:57:50	--	Mode #code [-v jsteiner : away] by jsteiner
+2014-05-28 13:58:12	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 13:58:12	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 13:58:12	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 13:58:12	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 13:58:12	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 13:58:12	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 13:58:12	--	Mode #code [+v draper : active] by draper
+2014-05-28 13:58:12	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 13:58:12	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 13:58:12	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 13:58:12	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 13:58:12	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 13:58:12	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 13:58:12	--	Mode #code [+v phil : active] by phil
+2014-05-28 13:58:12	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 13:58:12	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 13:58:12	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 13:58:12	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 13:58:12	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 13:58:12	--	Mode #code [+v blake : active] by blake
+2014-05-28 13:58:12	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 13:58:13	--	Mode #code [+v derek : active] by derek
+2014-05-28 13:58:13	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 13:58:13	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 13:58:13	--	Mode #code [+v simon : active] by simon
+2014-05-28 13:58:13	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 13:58:13	--	Mode #code [+v chris : active] by chris
+2014-05-28 13:58:13	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 13:58:13	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 13:58:13	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 13:58:13	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 13:58:13	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 13:58:13	--	Mode #code [+v jessieay : active] by jessieay
+2014-05-28 13:58:13	--	Mode #code [+v trace : active] by trace
+2014-05-28 13:58:13	--	Mode #code [+v russo : active] by russo
+2014-05-28 13:58:13	--	Mode #code [+v ej : active] by ej
+2014-05-28 13:58:13	--	Mode #code [+v greg : active] by greg
+2014-05-28 13:58:13	--	Mode #code [+v tony : active] by tony
+2014-05-28 13:58:13	--	Mode #code [+v justin : active] by justin
+2014-05-28 13:58:18	--	Mode #code [+nt]
+2014-05-28 13:58:18	--	Channel created on Wed, 28 May 2014 13:58:18
+2014-05-28 14:00:10	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 14:00:36	--	Mode #code [-v adarsh : away] by adarsh
+2014-05-28 14:01:25	--	Mode #code [+v reda : active] by reda
+2014-05-28 14:01:58	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 14:02:26	--	Mode #code [-v jessieay : away] by jessieay
+2014-05-28 14:02:59	--	Mode #code [+v desi : active] by desi
+2014-05-28 14:03:26	-->	justin (justin@irc.tinyspeck.com) has joined #code
+2014-05-28 14:03:26	--	Topic for #code is "Discussion of code. Include @pr in your message if you'd like to ask for a code review. No shenanigans."
+2014-05-28 14:03:26	--	Channel #code: 65 nicks (0 ops, 0 voices, 65 normals)
+2014-05-28 14:03:26	--	Mode #code [+v croaky : active] by croaky
+2014-05-28 14:03:26	--	Mode #code [+v adarsh : active] by adarsh
+2014-05-28 14:03:26	--	Mode #code [+v markadams : active] by markadams
+2014-05-28 14:03:26	--	Mode #code [+v draper : active] by draper
+2014-05-28 14:03:26	--	Mode #code [+v sharley : active] by sharley
+2014-05-28 14:03:26	--	Mode #code [+v tysongach : active] by tysongach
+2014-05-28 14:03:26	--	Mode #code [+v christianreuter : active] by christianreuter
+2014-05-28 14:03:26	--	Mode #code [+v donokuda : active] by donokuda
+2014-05-28 14:03:26	--	Mode #code [+v lisasy : active] by lisasy
+2014-05-28 14:03:26	--	Mode #code [+v joshuaogle : active] by joshuaogle
+2014-05-28 14:03:26	--	Mode #code [+v phil : active] by phil
+2014-05-28 14:03:26	--	Mode #code [+v reda : active] by reda
+2014-05-28 14:03:26	--	Mode #code [+v trevororeilly : active] by trevororeilly
+2014-05-28 14:03:26	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 14:03:26	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 14:03:26	--	Mode #code [+v sikachu : active] by sikachu
+2014-05-28 14:03:26	--	Mode #code [+v seantheprogrammer : active] by seantheprogrammer
+2014-05-28 14:03:26	--	Mode #code [+v blake : active] by blake
+2014-05-28 14:03:26	--	Mode #code [+v elliotwinkler : active] by elliotwinkler
+2014-05-28 14:03:26	--	Mode #code [+v paulcsmith : active] by paulcsmith
+2014-05-28 14:03:26	--	Mode #code [+v derek : active] by derek
+2014-05-28 14:03:26	--	Mode #code [+v jyurek : active] by jyurek
+2014-05-28 14:03:26	--	Mode #code [+v iwz : active] by iwz
+2014-05-28 14:03:26	--	Mode #code [+v simon : active] by simon
+2014-05-28 14:03:26	--	Mode #code [+v salbertson : active] by salbertson
+2014-05-28 14:03:26	--	Mode #code [+v chris : active] by chris
+2014-05-28 14:03:26	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 14:03:26	--	Mode #code [+v keithsmiley : active] by keithsmiley
+2014-05-28 14:03:26	--	Mode #code [+v brittballard : active] by brittballard
+2014-05-28 14:03:26	--	Mode #code [+v joelq : active] by joelq
+2014-05-28 14:03:26	--	Mode #code [+v melanie : active] by melanie
+2014-05-28 14:03:26	--	Mode #code [+v trace : active] by trace
+2014-05-28 14:03:26	--	Mode #code [+v russo : active] by russo
+2014-05-28 14:03:26	--	Mode #code [+v desi : active] by desi
+2014-05-28 14:03:26	--	Mode #code [+v ej : active] by ej
+2014-05-28 14:03:26	--	Mode #code [+v greg : active] by greg
+2014-05-28 14:03:26	--	Mode #code [+v tony : active] by tony
+2014-05-28 14:03:26	--	Mode #code [+v justin : active] by justin
+2014-05-28 14:03:32	--	Mode #code [+nt]
+2014-05-28 14:03:32	--	Channel created on Wed, 28 May 2014 14:03:32
+2014-05-28 14:03:36	--	Mode #code [-v blake : away] by blake
+2014-05-28 14:03:36	--	Mode #code [-v paulcsmith : away] by paulcsmith
+2014-05-28 14:04:31	--	Mode #code [-v gabebw : away] by gabebw
+2014-05-28 14:04:38	--	Mode #code [-v calebthompson : away] by calebthompson
+2014-05-28 14:04:42	--	Mode #code [-v gfontenot : away] by gfontenot
+2014-05-28 14:04:50	--	Mode #code [+v calebthompson : active] by calebthompson
+2014-05-28 14:04:53	--	Mode #code [+v eric : active] by eric
+2014-05-28 14:04:58	--	Mode #code [+v gabebw : active] by gabebw
+2014-05-28 14:04:59	--	Mode #code [+v calleerlandsson : active] by calleerlandsson
+2014-05-28 14:05:04	--	Mode #code [+v gfontenot : active] by gfontenot
+2014-05-28 14:05:06	--	Mode #code [+v mxie : active] by mxie
+2014-05-28 14:05:06	--	Mode #code [+v jacknutting : active] by jacknutting
+2014-05-28 14:05:08	--	Mode #code [+v georgebrock : active] by georgebrock
+2014-05-28 14:05:08	--	Mode #code [+v djcp : active] by djcp
+2014-05-28 14:06:36	--	Mode #code [+v jsteiner : active] by jsteiner
+2014-05-28 14:06:41	--	Mode #code [-v melanie : away] by melanie
+2014-05-28 14:06:53	--	Mode #code [+v melanie : active] by melanie

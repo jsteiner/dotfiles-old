@@ -1,0 +1,16 @@
+[2014-05-28 14:03:25] WeeChat 0.4.3 (compiled on May 23 2014 12:55:36)
+[2014-05-28 14:03:25] Reading configuration file sec.conf
+[2014-05-28 14:03:25] Reading configuration file weechat.conf
+[2014-05-28 14:03:25] Reading configuration file plugins.conf
+[2014-05-28 14:03:25] Reading configuration file alias.conf
+[2014-05-28 14:03:25] Reading configuration file charset.conf
+[2014-05-28 14:03:25] Reading configuration file irc.conf
+[2014-05-28 14:03:25] irc: connecting to server thoughtbot.irc.slack.com/6667 (SSL)...
+[2014-05-28 14:03:25] Reading configuration file logger.conf
+[2014-05-28 14:03:25] Reading configuration file buffers.conf
+[2014-05-28 14:03:25] Reading configuration file iset.conf
+[2014-05-28 14:03:26] Reading configuration file wg.conf
+[2014-05-28 14:03:26] Reading configuration file relay.conf
+[2014-05-28 14:03:26] Reading configuration file rmodifier.conf
+[2014-05-28 14:03:26] Reading configuration file script.conf
+[2014-05-28 14:03:26] Reading configuration file xfer.conf
