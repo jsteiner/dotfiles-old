@@ -3,3 +3,4 @@ fasd
 var
 vim/bundle/**
 weechat/logs
+weechat/weechat.log
