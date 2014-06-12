@@ -57,6 +57,16 @@ Configure iTerm:
 * Under Profiles > Text
   * Disable `Draw bold text in bright colors`
 
+Configure git. Create a `~/.gitconfig.local` file and replace the following with
+your information:
+
+    [user]
+        name = 'Josh Steiner'
+        email = 'josh@jsteiner.me'
+    [github]
+        user = jsteiner
+
+
 If you like what you see in osx-settings, run `./osx-settings`.
 
 ## Updating
