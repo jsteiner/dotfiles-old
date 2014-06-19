@@ -22,6 +22,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'
 Plugin 'pbrisbin/vim-mkdir'
+Plugin 'kana/vim-textobj-user'
+Plugin 'nelstrom/vim-textobj-rubyblock'
 
 " tmux
 Plugin 'jgdavey/tslime.vim'
