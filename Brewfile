@@ -33,5 +33,4 @@ tap thoughtbot/formulae
 install rcm
 
 # Fast GitHub client
-tap jingweno/gh
 install gh
