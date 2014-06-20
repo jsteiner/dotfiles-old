@@ -41,7 +41,7 @@ cause problems with Vim. More info [here].
 
 Set up vundle:
 
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/vundle
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     vim +PluginInstall +qa
 
 Remap `Caps Lock` to `Control`. Thank me later.
