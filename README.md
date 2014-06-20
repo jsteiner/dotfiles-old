@@ -50,9 +50,10 @@ Remap `Caps Lock` to `Control`. Thank me later.
 
 Configure iTerm:
 
-* Install [Solarized for iTerm2]
+* Install the [light] and [dark] Solarized for iTerm2 themes.
+  * Set them in Profiles > Colors > Load Presets
 * Under Profiles > Terminal
-  * Set `Scrollback Lines` to 0 if you are using tmux.
+  * Set `Scrollback Lines` to 0 *if* you are using tmux.
   * Set `Report Terminal Type` to xterm-256color
 * Under Profiles > Text
   * Disable `Draw bold text in bright colors`
@@ -166,3 +167,5 @@ Shell aliases and scripts:
 [iTerm2]: http://www.iterm2.com
 [rcm]: http://thoughtbot.github.io/rcm/rcm.7.html
 [fasd]: https://github.com/clvv/fasd
+[dark]: https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors
+[light]: https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors
