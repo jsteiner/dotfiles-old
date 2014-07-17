@@ -19,7 +19,7 @@
   shortnocolor = log --pretty=format:\"%h %cr %cn %s\"
   amend = commit --amend
 [format]
-  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+  pretty = format:%C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an, %cr]%Creset
 [merge]
   ff = only
   summary = true
