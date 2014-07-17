@@ -10,6 +10,10 @@ let g:rails_projections = {
       \   "command": "service",
       \   "template": "class %S\n\nend",
       \ },
+      \ "app/jobs/*.rb": {
+      \   "command": "job",
+      \   "template": "class %SJob\n\nend",
+      \ },
       \ "spec/support/*.rb": {
       \   "command": "support"
       \ }}
