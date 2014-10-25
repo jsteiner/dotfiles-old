@@ -9,46 +9,16 @@
   frag = magenta bold
   old = red bold
   new = green bold
-[alias]
-  unstage = reset HEAD              # remove files from index (tracking)
-  uncommit = reset --soft HEAD^     # go back before last commit, with files in uncommitted state
-  rename = branch -m
-  changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
-  short = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\"
-  changelog = log --pretty=format:\" * %s\"
-  shortnocolor = log --pretty=format:\"%h %cr %cn %s\"
-  amend = commit --amend
 [format]
   pretty = format:%C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an, %cr]%Creset
 [merge]
   ff = only
-  summary = true
-  verbosity = 1
 [push]
-  default = upstream
+  default = current
 [pull]
   rebase = true
 [core]
-  autocrlf = false
-  editor = vim
+  autocrlf = input
   excludesfile = ~/.gitignore
-  pager = cat
-[advice]
-  statusHints = false
-[diff]
-  # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
-  # instead of a/b/c/d as prefixes for patches
-  mnemonicprefix = true
-[rerere]
-  # Remember my merges
-  # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
-	enabled = false
-[url "git://github.com/"]
-  # Read-only
-  insteadOf = gh:
-[url "git@github.com:"]
-  # With write access
-  insteadOf = wgh:
 [include]
-  # Add your user credentials in this file
   path = ~/.gitconfig.local

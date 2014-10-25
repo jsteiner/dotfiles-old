@@ -1,7 +1,7 @@
 # Alias Editing
-alias ae='vi ~/.zsh/aliases.zsh' #alias edit
-alias ar='source ~/.zsh/aliases.zsh'  #alias reload
-alias zr='source ~/.zshrc' #reload zsh
+alias ae='vi ~/.zsh/aliases.zsh'
+alias ar='source ~/.zsh/aliases.zsh'
+alias zr='source ~/.zshrc'
 
 # Unix
 alias la='ls -la'
@@ -15,33 +15,34 @@ alias psa="ps aux"
 alias psag="ps aux | ag "
 
 # git
+alias amend='git commit --amend'
+alias amendne='git commit --amend --no-edit'
 alias g="git"
 alias ga="git add"
-alias gs='git status -s'
 alias gall='git add -A'
 alias gb='git branch'
 alias gba='git branch -a'
+alias gbd='git branch -d'
 alias gc='git commit'
-alias gcm='git commit -m'
 alias gcl='git clone'
+alias gcm='git commit -m'
 alias gco='git checkout'
-alias gbrn='git branch -m $(git rev-parse --abbrev-ref HEAD)'
+alias gcp='git cherry-pick'
+alias gd='git diff'
+alias gf='git fetch'
+alias ggl='git log --graph --all -20'
+alias gl='git log -10'
+alias gmb='git checkout master && git merge @{-1}'
 alias gnb='git checkout -b'
-alias gr='git rebase'
-alias gri='git rebase -i'
+alias gpr='gh pull-request'
 alias gra='git rebase --abort'
 alias grc='git rebase --continue'
-alias gl='git log -10'
-alias ggl='git log --graph --all -20'
-alias gf='git fetch'
-alias gd='git diff'
-alias gcp='git cherry-pick'
-alias gcd='cd $(git rev-parse --show-toplevel)'
-alias amend='git commit --amend'
-alias amendne='git commit --amend --no-edit'
-alias ane='ane'
-alias standup='git standup'
-alias gpr='hub pull-request'
+alias gri='git rebase -i'
+alias grn='git branch -m $(git rev-parse --abbrev-ref HEAD)'
+alias gs='git status -s'
+alias gup='git fetch origin && git rebase origin/master'
+alias gps='git push'
+alias gpl='git pull'
 
 # Bundler
 alias b="bundle"
@@ -53,9 +54,6 @@ alias s="rspec"
 
 # Rails
 alias c="rails console"
-
-# Open ports
-alias open_ports="lsof -i -P | grep -i 'listen'"
 
 # tmux
 alias tat='tmux attach -t'
