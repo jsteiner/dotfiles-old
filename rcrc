@@ -1,2 +1,2 @@
-EXCLUDES="README.md Brewfile"
+EXCLUDES="README.md Brewfile osx-settings"
 DOTFILES_DIRS="$HOME/dotfiles"

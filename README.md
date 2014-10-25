@@ -26,7 +26,7 @@ Run `brew bundle` to install all packages in the `Brewfile`
 
 Install:
 
-    rcup -d ~/dotfiles -x README.md -x Brewfile -x osx-settings
+    env RCRC=$HOME/dotfiles/rcrc rcup
 
 This will create symlinks for config files in your home directory. The
 `-x` options, which exclude the `README.md` and `Brewfile` files, are
