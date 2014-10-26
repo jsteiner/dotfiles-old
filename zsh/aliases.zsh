@@ -42,6 +42,7 @@ alias grn='git branch -m $(git rev-parse --abbrev-ref HEAD)'
 alias gs='git status -s'
 alias gup='git fetch origin && git rebase origin/master'
 alias gps='git push'
+alias gpsf='git push -f'
 alias gpl='git pull'
 
 # Bundler
