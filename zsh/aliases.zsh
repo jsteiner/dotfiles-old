@@ -50,11 +50,11 @@ alias b="bundle"
 alias be="bundle exec"
 alias bi="bundle install"
 
-# Tests and Specs
-alias s="rspec"
-
 # Rails
 alias c="rails console"
+alias migrate="rake db:migrate db:rollback && rake db:migrate"
+alias m="migrate"
+alias s="rspec"
 
 # tmux
 alias tat='tmux attach -t'
