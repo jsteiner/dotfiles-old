@@ -8,28 +8,35 @@ Set `zsh` as your login shell:
 
     chsh -s $(which zsh)
 
-Change to your home directory and clone this repo, then change to the new dotfiles directory.
+Change to your home directory and clone this repo, then change to the new
+dotfiles directory:
 
     cd && git clone https://github.com/jsteiner/dotfiles.git
     cd dotfiles
 
-Download submodules
+Download submodules:
 
     git submodule init
     git submodule update
 
 Install [homebrew](http://mxcl.github.com/homebrew/).
 
-Run `brew bundle` to install all packages in the `Brewfile`
+Run `brew update`.
 
-    brew bundle
+Tap thoughtbot formulae:
+
+    brew tap thoughtbot/formulae
+
+Install all packages:
+
+    brew install git vim zsh the_silver_searcher fasd tmux reattach-to-user-namespace rbenv ruby-build rbenv-gem-rehash rcm gh
 
 Install:
 
     env RCRC=$HOME/dotfiles/rcrc rcup
 
 This will create symlinks for config files in your home directory. The
-`-x` options, which exclude the `README.md` and `Brewfile` files, are
+`-x` options, which exclude the `README.md` file, are
 needed during installation but can be skipped after the first time.
 
 Rename `/etc/zshenv` to `/etc/zprofile`.
