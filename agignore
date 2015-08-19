@@ -3,5 +3,9 @@ tags
 tmp
 doc
 *.sql
+*.svg
+public/fonts
 vendor
 coverage
+bower_components/
+node_modules/
