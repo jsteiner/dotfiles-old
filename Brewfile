@@ -34,3 +34,5 @@ install rcm
 
 # Fast GitHub client
 install gh
+
+tap gapple/services
