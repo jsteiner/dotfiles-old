@@ -59,3 +59,6 @@ alias s="rspec"
 # tmux
 alias tat='tmux attach -t'
 alias tns='tmux new -s'
+
+# xcode
+alias fuxcode='rm -rf ~/Library/Developer/Xcode/DerivedData/'
