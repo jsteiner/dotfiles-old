@@ -1,5 +1,8 @@
 let g:projectionist_heuristics = {
-      \   "mix.exs": {
+      \   "web/router.ex": {
+      \     "priv/repo/migrations/*.exs": {
+      \        "type": "migration"
+      \     },
       \     "web/models/*.ex": {
       \        "type": "model",
       \        "alternate": "test/models/{}_test.exs"
@@ -33,14 +36,11 @@ let g:projectionist_heuristics = {
       \     "test/models/*_test.exs": {
       \        "alternate": "web/models/{}.ex"
       \     },
-      \     "*": {
-      \        "make": "mix test",
-      \        "console": "iex -S mix phoenix.server",
-      \        "start": "mix phoenix.server"
+      \     "test/support/factories.ex": {
+      \        "type": "factories"
       \     },
       \     "test/*_test.exs": {
-      \       "command": "test",
-      \       "dispatch": "mix test {file}"
+      \       "type": "test",
       \     }
       \   }
       \ }
