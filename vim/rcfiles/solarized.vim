@@ -17,4 +17,4 @@ hi! link rubyRailsMethod Title
 hi! link MatchParen DiffText
 
 " Enforce the colors set here
-au VimEnter * so ~/.vim/plugin/settings/solarized.vim
+au VimEnter * so ~/.vim/rcfiles/solarized.vim
