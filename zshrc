@@ -5,9 +5,6 @@ compinit
 # use vim as an editor
 export EDITOR=vim
 
-# expand functions in the prompt
-setopt prompt_subst
-
 # awesome cd movements from zshkit
 export dirstacksize=5
 setopt autocd

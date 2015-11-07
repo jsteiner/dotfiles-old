@@ -12,7 +12,7 @@ _git_prompt_info() {
 }
 
 _git_status() {
-  git_status=$(cat "/tmp/git-status-$$")
+  git_status=$(git status)
   if [ -n "$(echo $git_status | grep "Changes not staged")" ]; then
     echo "changed"
   elif [ -n "$(echo $git_status | grep "Changes to be committed")" ]; then
@@ -34,7 +34,7 @@ _git_prompt_color() {
     elif [ "unchanged" = $current_git_status ]; then
       echo "$(_green $1)"
     elif [ "untracked" = $current_git_status ]; then
-      echo "$(_cyan $1)"
+      echo "$(_1)"
     fi
   else
     echo "$1"
@@ -75,8 +75,41 @@ function zle-line-init zle-keymap-select {
 zle -N zle-line-init
 zle -N zle-keymap-select
 
-function precmd {
-  $(git status 2> /dev/null >! "/tmp/git-status-$$")
+# expand functions in the prompt
+setopt prompt_subst
+
+PROMPT='$(_working_directory) $(_display_current_vim_mode) '
+RPROMPT=''
+
+# Non blocking prompt stolen from http://www.anishathalye.com/2015/02/07/an-asynchronous-shell-prompt/
+
+ASYNC_PROC=0
+function precmd() {
+  function async() {
+    # save to temp file
+    printf "%s" "$(_separate $(_colored_git_branch))" > "${HOME}/.zsh_tmp_prompt"
+
+    # signal parent
+    kill -s USR1 $$
+  }
+
+  # kill child if necessary
+  if [[ "${ASYNC_PROC}" != 0 ]]; then
+    kill -s HUP $ASYNC_PROC >/dev/null 2>&1 || :
+  fi
+
+  # start background computation
+  async &!
+  ASYNC_PROC=$!
 }
 
-PROMPT='$(_working_directory)$(_separate $(_colored_git_branch)) $(_display_current_vim_mode) '
+function TRAPUSR1() {
+  # read from temp file
+  RPROMPT="$(cat ${HOME}/.zsh_tmp_prompt)"
+
+  # reset proc number
+  ASYNC_PROC=0
+
+  # redisplay
+  zle && zle reset-prompt
+}
