@@ -5,9 +5,6 @@ vmap D y'>p
 " Disabling
 """""""""""
 
-" Disable shift+k
-map K <Nop>
-
 " Bind :W to :w
 command! W w
 
