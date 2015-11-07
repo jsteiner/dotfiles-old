@@ -18,6 +18,7 @@ Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'pbrisbin/vim-mkdir'
+Plugin 'pbrisbin/vim-rename-file'
 
 " tmux
 Plugin 'jgdavey/tslime.vim'

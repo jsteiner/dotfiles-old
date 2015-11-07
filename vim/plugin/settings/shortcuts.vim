@@ -2,9 +2,6 @@
 " Visual mode: D
 vmap D y'>p
 
-" Disabling
-"""""""""""
-
 " Bind :W to :w
 command! W w
 
@@ -34,17 +31,7 @@ map <Leader>s :split <C-R>=expand("%:p:h") . '/'<CR>
 map <Leader>v :vsplit <C-R>=expand("%:p:h") . '/'<CR>
 map <Leader>te :tabe <C-R>=expand("%:p:h") . '/'<CR>
 
-" Rename current file (thanks Gary Bernhardt)
-function! RenameFile()
-  let old_name = expand('%')
-  let new_name = input('New file name: ', expand('%'), 'file')
-  if new_name != '' && new_name != old_name
-    exec ':saveas ' . new_name
-    exec ':silent !rm ' . old_name
-    redraw!
-  endif
-endfunction
-map <leader>n :call RenameFile()<cr>
+map <Leader>n :RenameFile<CR>
 
 " Formatting
 """"""""""""
@@ -60,8 +47,5 @@ nmap <leader>rh :%s/:\([^ ]*\)\(\s*\)=>/\1:/g<cr>
 map <Leader>gs :Gstatus<CR>
 map <Leader>bi :!bundle install<cr>
 
-" run the current file in ruby
-map <Leader>r :w\|:!ruby %<cr>
-
-" delete comments
+" delete ruby comments
 nmap <leader>c :%s/^\s*#.*$//g<CR>:%s/\(\n\)\n\+/\1/g<CR>:nohl<CR>gg
