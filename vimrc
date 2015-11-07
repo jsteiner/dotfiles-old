@@ -1,6 +1,6 @@
 set nocompatible
 
-let mapleader=","
+let mapleader = "\<Space>"
 
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
