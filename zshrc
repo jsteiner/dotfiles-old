@@ -5,11 +5,6 @@ compinit
 # use vim as an editor
 export EDITOR=vim
 
-# Put secret configuration settings in ~/.secrets
-if [[ -a ~/.secrets ]] then
-  source ~/.secrets
-fi
-
 # expand functions in the prompt
 setopt prompt_subst
 
