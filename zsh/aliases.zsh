@@ -1,3 +1,5 @@
+alias e="$EDITOR"
+
 # Alias Editing
 alias ae='vi ~/.zsh/aliases.zsh'
 alias ar='source ~/.zsh/aliases.zsh'

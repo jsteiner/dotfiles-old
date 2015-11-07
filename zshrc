@@ -3,7 +3,7 @@ autoload -U compinit
 compinit
 
 # use vim as an editor
-export EDITOR=vim
+export EDITOR=nvim
 
 # awesome cd movements from zshkit
 export dirstacksize=5
