@@ -57,10 +57,6 @@ alias c='rails console'
 alias migrate='rake db:migrate db:rollback && rake db:migrate'
 alias m='migrate'
 
-# tmux
-alias tat='tmux attach -t'
-alias tns='tmux new -s'
-
 # xcode
 alias fuxcode='rm -rf ~/Library/Developer/Xcode/DerivedData/'
 alias fupostgres='rm -f /usr/local/var/postgres/postmaster.pid && brew services restart postgres'
