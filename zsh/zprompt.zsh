@@ -34,7 +34,7 @@ _git_prompt_color() {
     elif [ "unchanged" = $current_git_status ]; then
       echo "$(_green $1)"
     elif [ "untracked" = $current_git_status ]; then
-      echo "$(_1)"
+      echo "$(_cyan $1)"
     fi
   else
     echo "$1"
