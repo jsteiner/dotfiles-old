@@ -1,5 +1,11 @@
 # dotfiles
 
+## Deprecated!
+
+I no longer use these dotfiles. Instead, I use the
+[thoughtbot dotfiles](https://github.com/thoughtbot/dotfiles) with
+[my own customizations](https://github.com/jsteiner/dotfiles-local).
+
 ## Install
 
 Install and use [iTerm2].
